@@ -134,3 +134,4 @@ test set AND a new tech test set afterward, not just assume nothing
 broke. Also note "tech" isn't one domain -- a phone launch, a
 clinical trial, and a car recall read very differently, so real
 coverage would want genuine diversity within tech/science/auto too.
+# news_intelligence
