@@ -1,0 +1,37 @@
+/home/prit/news_intelligence/venv/lib64/python3.12/site-packages/torch/cuda/__init__.py:188: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 12080). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /__w/pytorch/pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  return torch._C._cuda_getDeviceCount() > 0
+Loading gold data from data/processed/train_target.csv...
+Limiting to first 300 unique sentences.
+Sentences to evaluate: 300
+Total gold targets: 340
+Batch size: 16
+
+Models:
+  - en_core_web_sm
+
+======================================================================
+EVALUATING MODEL: en_core_web_sm
+======================================================================
+Loading spaCy model: en_core_web_sm
+spaCy model loaded successfully.
+  ...1/300 sentences processed
+  ...50/300 sentences processed
+  ...100/300 sentences processed
+  ...150/300 sentences processed
+  ...200/300 sentences processed
+  ...250/300 sentences processed
+  ...300/300 sentences processed
+
+==============================================================================
+MODEL COMPARISON
+==============================================================================
+MODEL                           RECALL     EXACT   RES/EMB    SUBSTR   NOT_FOUND
+--------------------------------------------------------------------------------
+en_core_web_sm                  95.0%     40.0%     35.3%     19.7%        5.0%
+
+Predictions CSV: outputs/target_selector_evaluation/target_selector_predictions.csv
+Comparison CSV: outputs/target_selector_evaluation/target_selector_model_comparison.csv
+
+==============================================================================
+EVALUATION COMPLETE
+==============================================================================

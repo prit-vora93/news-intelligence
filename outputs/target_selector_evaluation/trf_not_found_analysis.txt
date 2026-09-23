@@ -1,0 +1,2172 @@
+TRF NOT_FOUND ANALYSIS
+================================================================================
+
+Total sentences/prediction rows: 8673
+NOT_FOUND rows: 253
+
+ALL NOT_FOUND CASES
+================================================================================
+
+[1]
+Gold target: his
+Sentence: Not sure I would have been President w/o his great talent, loyal help.
+Selected targets: ["President"]
+Selected details: [{"target":"President","role":"noun_phrase","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[2]
+Gold target: his
+Sentence: But his margin for error on Obamacare is razor-thin; Republicans can afford no more than two defections, meaning that some combination of staunch conservatives like Paul, Cruz, and Lee will have to endorse the same bill as Collins, Murkowski, and Heller, who is up for reelection in 2018 in a state Hillary Clinton carried in November.
+Selected targets: ["no more than two defections","Republicans","some combination of staunch conservatives like Paul, Cruz, and Lee","the same bill as Collins, Murkowski, and Heller,","Hillary Clinton"]
+Selected details: [{"target":"no more than two defections","role":"object","event":"afford","confidence":"medium","embedded_entities":[]},{"target":"Republicans","role":"subject","event":"afford","confidence":"medium","embedded_entities":[]},{"target":"some combination of staunch conservatives like Paul, Cruz, and Lee","role":"subject","event":"have","confidence":"medium","embedded_entities":["Paul","Cruz","Lee"]},{"target":"the same bill as Collins, Murkowski, and Heller,","role":"object","event":"endorse","confidence":"medium","embedded_entities":["Collins","Murkowski","Heller"]},{"target":"Hillary Clinton","role":"subject","event":"carried","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Obamacare","Republicans","Paul","Cruz","Lee","Collins","Murkowski","Heller","Hillary Clinton"]
+Unresolved mentions: []
+
+[3]
+Gold target: Trump
+Sentence: Here are the top 10 anti-Trump shifts, with Georgia's 6th at No.
+Selected targets: ["Georgia"]
+Selected details: [{"target":"Georgia","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["Georgia"]
+Unresolved mentions: []
+
+[4]
+Gold target: his
+Sentence: Here is his floor speech running through the series of events and actions that led the Senate to this point.
+Selected targets: ["the series of events and actions","the Senate"]
+Selected details: [{"target":"the series of events and actions","role":"object","event":"running","confidence":"medium","embedded_entities":[]},{"target":"the Senate","role":"object","event":"led","confidence":"medium","embedded_entities":["Senate"]}]
+Resolved entities: ["Senate"]
+Unresolved mentions: ["that"]
+
+[5]
+Gold target: he
+Sentence: “Let’s have open debates, not threats,” he tweeted.
+Selected targets: ["open debates not threats","’s"]
+Selected details: [{"target":"open debates not threats","role":"object","event":"have","confidence":"medium","embedded_entities":[]},{"target":"’s","role":"subject","event":"have","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[6]
+Gold target: her
+Sentence: Jeff Sessions, one of her colleagues and Mr. Trump’s nominee to head the Justice Department.
+Selected targets: ["the Justice Department"]
+Selected details: [{"target":"the Justice Department","role":"object","event":"head","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Jeff Sessions","Trump","the Justice Department"]
+Unresolved mentions: []
+
+[7]
+Gold target: MANNING
+Sentence: WILL WIKILEAKS’ JULIAN ASSANGE MAKE GOOD ON HIS OFFER TO TURN HIMSELF IN AFTER MANNING CLEMENCY?
+Selected targets: ["GOOD","WIKILEAKS’ JULIAN ASSANGE","HIMSELF","CLEMENCY"]
+Selected details: [{"target":"GOOD","role":"object","event":"MAKE","confidence":"medium","embedded_entities":[]},{"target":"WIKILEAKS’ JULIAN ASSANGE","role":"subject","event":"MAKE","confidence":"medium","embedded_entities":["JULIAN ASSANGE"]},{"target":"HIMSELF","role":"object","event":"TURN","confidence":"medium","embedded_entities":[]},{"target":"CLEMENCY","role":"object","event":"MANNING","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["JULIAN ASSANGE"]
+Unresolved mentions: []
+
+[8]
+Gold target: Clapper
+Sentence: Clapper: Trump rhetoric on intel agencies alarming U.S. allies
+Selected targets: ["U.S. allies","Trump rhetoric on intel agencies"]
+Selected details: [{"target":"U.S. allies","role":"object","event":"alarming","confidence":"medium","embedded_entities":["U.S."]},{"target":"Trump rhetoric on intel agencies","role":"subject","event":"alarming","confidence":"medium","embedded_entities":["Trump"]}]
+Resolved entities: ["Trump","U.S."]
+Unresolved mentions: []
+
+[9]
+Gold target: Thursday
+Sentence: Perhaps sensitive to the public perception, Trump on Thursday tried to walk back his previous online comments.
+Selected targets: ["Trump","his previous online comments"]
+Selected details: [{"target":"Trump","role":"subject","event":"tried","confidence":"medium","embedded_entities":[]},{"target":"his previous online comments","role":"object","event":"walk","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Trump"]
+Unresolved mentions: []
+
+[10]
+Gold target: myself
+Sentence: We have — I think, I can say at least for myself, I can't speak for him, but we have a really good chemistry together.
+Selected targets: ["a really good chemistry"]
+Selected details: [{"target":"a really good chemistry","role":"object","event":"have","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["We","I"]
+
+[11]
+Gold target: herself
+Sentence: Mr. Trump has long known!! .@MegynKelly made a total fool out of herself tonight- attacking @realDonaldTrump.
+Selected targets: ["Mr. Trump","a total fool",".@MegynKelly","@realDonaldTrump"]
+Selected details: [{"target":"Mr. Trump","role":"subject","event":"known","confidence":"medium","embedded_entities":["Trump"]},{"target":"a total fool","role":"object","event":"made","confidence":"medium","embedded_entities":[]},{"target":".@MegynKelly","role":"subject","event":"made","confidence":"medium","embedded_entities":[]},{"target":"@realDonaldTrump","role":"object","event":"attacking","confidence":"medium","embedded_entities":["Trump"]}]
+Resolved entities: ["Trump"]
+Unresolved mentions: []
+
+[12]
+Gold target: the poll
+Sentence: But there’s little evidence at the outset that such a move would help Republicans: Clinton holds a 6-point lead over Pence in a hypothetical matchup among likely voters, according to the poll.
+Selected targets: ["little evidence","Republicans","such a move","a 6-point lead over Pence","Clinton"]
+Selected details: [{"target":"little evidence","role":"object","event":"’s","confidence":"medium","embedded_entities":[]},{"target":"Republicans","role":"object","event":"help","confidence":"medium","embedded_entities":[]},{"target":"such a move","role":"subject","event":"help","confidence":"medium","embedded_entities":[]},{"target":"a 6-point lead over Pence","role":"object","event":"holds","confidence":"medium","embedded_entities":["Pence"]},{"target":"Clinton","role":"subject","event":"holds","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Republicans","Clinton","Pence"]
+Unresolved mentions: []
+
+[13]
+Gold target: THE FACTS
+Sentence: THE FACTS: True, but that's not exactly to his credit as governor of Indiana.
+Selected targets: ["Indiana"]
+Selected details: [{"target":"Indiana","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["Indiana"]
+Unresolved mentions: []
+
+[14]
+Gold target: the billionaire businessman was an “absolute genius
+Sentence: Former New York Mayor Rudolph W. Giuliani defended Mr. Trump’s tax moves by boasting that the billionaire businessman was an “absolute genius.”
+Selected targets: ["Mr. Trump’s tax moves","Former New York Mayor Rudolph W. Giuliani"]
+Selected details: [{"target":"Mr. Trump’s tax moves","role":"object","event":"defended","confidence":"medium","embedded_entities":["Trump"]},{"target":"Former New York Mayor Rudolph W. Giuliani","role":"subject","event":"defended","confidence":"medium","embedded_entities":["New York","Rudolph W. Giuliani"]}]
+Resolved entities: ["New York","Rudolph W. Giuliani","Trump"]
+Unresolved mentions: []
+
+[15]
+Gold target: he
+Sentence: Rather than excoriating his debate opponent — as he did freely, wantonly, brutally, to the likes of Ted Cruz and Marco Rubio — Trump this time chose not to jump into the gutter.
+Selected targets: ["his debate opponent","Trump"]
+Selected details: [{"target":"his debate opponent","role":"object","event":"excoriating","confidence":"medium","embedded_entities":[]},{"target":"Trump","role":"subject","event":"chose","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Ted Cruz","Marco Rubio","Trump"]
+Unresolved mentions: ["his"]
+
+[16]
+Gold target: Monday
+Sentence: (New Jersey State Police) Rahami was charged late Monday in Union County with five counts of attempted murder of a police officer.
+Selected targets: ["Union County","Rahami"]
+Selected details: [{"target":"Union County","role":"object","event":"charged","confidence":"medium","embedded_entities":[]},{"target":"Rahami","role":"subject","event":"charged","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["New Jersey","Rahami","Union County"]
+Unresolved mentions: []
+
+[17]
+Gold target: him
+Sentence: But Jay-Z was way ahead of him, telling CNN that the black unemployment rate doesn't make up for the president's divisive rhetoric.
+Selected targets: ["CNN","the black unemployment rate"]
+Selected details: [{"target":"CNN","role":"object","event":"telling","confidence":"medium","embedded_entities":[]},{"target":"the black unemployment rate","role":"subject","event":"make","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Jay-Z","CNN"]
+Unresolved mentions: []
+
+[18]
+Gold target: Tuesday
+Sentence: In a shift, he delivered a scripted speech to a rally audience Tuesday night in Wisconsin, appealing to minority voters in part by accusing Clinton of "bigotry" and saying she sees African-Americans as no more than votes to be won.
+Selected targets: ["Wisconsin","Clinton","African-Americans"]
+Selected details: [{"target":"Wisconsin","role":"object","event":"delivered","confidence":"medium","embedded_entities":[]},{"target":"Clinton","role":"object","event":"accusing","confidence":"medium","embedded_entities":[]},{"target":"African-Americans","role":"object","event":"sees","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Wisconsin","Clinton","African-Americans"]
+Unresolved mentions: ["he"]
+
+[19]
+Gold target: the department
+Sentence: But she deleted a similar number of emails that she said were unrelated to her work at the department.
+Selected targets: ["a similar number"]
+Selected details: [{"target":"a similar number","role":"noun_phrase","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["she","that","her"]
+
+[20]
+Gold target: Sunday
+Sentence: “It wasn’t just that 40 senators came to the floor and supported my effort to get these votes but there were millions of people all across the country who rose up and who joined our effort,” Murphy said Sunday on ABC’s “This Week.”
+Selected targets: ["40 senators","my effort","these votes","millions of people all across the country","our effort","ABC’s “This Week","Murphy"]
+Selected details: [{"target":"40 senators","role":"subject","event":"came","confidence":"medium","embedded_entities":[]},{"target":"my effort","role":"object","event":"supported","confidence":"medium","embedded_entities":[]},{"target":"these votes","role":"object","event":"get","confidence":"medium","embedded_entities":[]},{"target":"millions of people all across the country","role":"object","event":"were","confidence":"medium","embedded_entities":[]},{"target":"our effort","role":"object","event":"joined","confidence":"medium","embedded_entities":[]},{"target":"ABC’s “This Week","role":"object","event":"said","confidence":"medium","embedded_entities":["ABC","This Week"]},{"target":"Murphy","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Murphy","ABC","This Week"]
+Unresolved mentions: ["my","these","the country","who","our"]
+
+[21]
+Gold target: Tuesday
+Sentence: However, Fox News reported Tuesday that Mateen was more than just an acquaintance of another radicalized terrorist who left Florida for Syria where he blew himself up in 2014.
+Selected targets: ["Fox News","Florida","Syria","himself"]
+Selected details: [{"target":"Fox News","role":"subject","event":"reported","confidence":"high","embedded_entities":[]},{"target":"Florida","role":"object","event":"left","confidence":"medium","embedded_entities":[]},{"target":"Syria","role":"object","event":"left","confidence":"medium","embedded_entities":[]},{"target":"himself","role":"object","event":"blew","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Fox News","Mateen","Florida","Syria"]
+Unresolved mentions: []
+
+[22]
+Gold target: Tuesday
+Sentence: Clinton's strong performance in several states in Tuesday's primaries erased essentially any path to the nomination for Sanders.
+Selected targets: ["any path to the nomination for Sanders"]
+Selected details: [{"target":"any path to the nomination for Sanders","role":"object","event":"erased","confidence":"medium","embedded_entities":["Sanders"]}]
+Resolved entities: ["Clinton","Sanders"]
+Unresolved mentions: []
+
+[23]
+Gold target: me
+Sentence: Honored to have you with me, @POTUS.
+Selected targets: []
+Selected details: []
+Resolved entities: []
+Unresolved mentions: ["you"]
+
+[24]
+Gold target: he
+Sentence: But it is hard to think of a moment when he was ever less than brave.
+Selected targets: ["a moment"]
+Selected details: [{"target":"a moment","role":"noun_phrase","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[25]
+Gold target: he
+Sentence: “And I believe absolutely that he is not only unprepared to be president, he is temperamentally unfit to be president.
+Selected targets: ["president"]
+Selected details: [{"target":"president","role":"noun_phrase","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["I"]
+
+[26]
+Gold target: the primary race
+Sentence: Sanders continues to stay in the primary race, despite facing very long odds of winning the nomination.
+Selected targets: ["Sanders","very long odds of winning the nomination","the nomination"]
+Selected details: [{"target":"Sanders","role":"subject","event":"continues","confidence":"medium","embedded_entities":[]},{"target":"very long odds of winning the nomination","role":"object","event":"facing","confidence":"medium","embedded_entities":[]},{"target":"the nomination","role":"object","event":"winning","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Sanders"]
+Unresolved mentions: []
+
+[27]
+Gold target: the convention
+Sentence: And while party officials seem eager for Sanders to drop out, the self-described democratic socialist continues to try to win delegates in the few remaining state contests to try to exert some influence over the party platform being rolled out at the convention.
+Selected targets: ["eager for Sanders to drop out","party officials","Sanders","the self-described democratic socialist","delegates","some influence"]
+Selected details: [{"target":"eager for Sanders to drop out","role":"object","event":"seem","confidence":"medium","embedded_entities":["Sanders"]},{"target":"party officials","role":"subject","event":"seem","confidence":"medium","embedded_entities":[]},{"target":"Sanders","role":"subject","event":"drop","confidence":"high","embedded_entities":[]},{"target":"the self-described democratic socialist","role":"subject","event":"continues","confidence":"medium","embedded_entities":[]},{"target":"delegates","role":"object","event":"win","confidence":"medium","embedded_entities":[]},{"target":"some influence","role":"object","event":"exert","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Sanders"]
+Unresolved mentions: []
+
+[28]
+Gold target: Friday
+Sentence: Maya Harris, a senior policy adviser to Mrs. Clinton, dismissed Mr. Trump’s attacks on Friday, saying he was “peddling falsehoods.”
+Selected targets: ["Mr. Trump’s attacks","Maya Harris a senior policy adviser to Mrs. Clinton","falsehoods"]
+Selected details: [{"target":"Mr. Trump’s attacks","role":"object","event":"dismissed","confidence":"medium","embedded_entities":["Trump"]},{"target":"Maya Harris a senior policy adviser to Mrs. Clinton","role":"subject","event":"dismissed","confidence":"medium","embedded_entities":["Maya Harris","Clinton"]},{"target":"falsehoods","role":"object","event":"peddling","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Maya Harris","Clinton","Trump"]
+Unresolved mentions: ["he"]
+
+[29]
+Gold target: the state
+Sentence: “In 2008, Secretary Clinton spent an enormous amount of time in the state and she won overwhelmingly in the primary against President Obama.
+Selected targets: ["an enormous amount of time","Secretary Clinton","the primary against President Obama"]
+Selected details: [{"target":"an enormous amount of time","role":"object","event":"spent","confidence":"medium","embedded_entities":[]},{"target":"Secretary Clinton","role":"subject","event":"spent","confidence":"medium","embedded_entities":["Clinton"]},{"target":"the primary against President Obama","role":"object","event":"won","confidence":"medium","embedded_entities":["Obama"]}]
+Resolved entities: ["Clinton","Obama"]
+Unresolved mentions: []
+
+[30]
+Gold target: his
+Sentence: A majority of Americans now narrowly approve of Mr. Obama’s performance — a big improvement from his standing in surveys ahead of the midterm elections, when his ratings were decidedly negative.
+Selected targets: ["Mr. Obama’s performance","A majority of Americans"]
+Selected details: [{"target":"Mr. Obama’s performance","role":"object","event":"approve","confidence":"high","embedded_entities":["Obama"]},{"target":"A majority of Americans","role":"subject","event":"approve","confidence":"medium","embedded_entities":["Americans"]}]
+Resolved entities: ["Americans","Obama"]
+Unresolved mentions: []
+
+[31]
+Gold target: Lyin’ Ted
+Sentence: Trump added that the pact, “[s]hows how weak and desperate Lyin’ Ted is when he has to team up with a guy who openly can’t stand him and is only 1 win and 38 losses.”
+Selected targets: ["Trump","the pact"]
+Selected details: [{"target":"Trump","role":"subject","event":"added","confidence":"medium","embedded_entities":[]},{"target":"the pact","role":"subject","event":"s]hows","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Trump"]
+Unresolved mentions: []
+
+[32]
+Gold target: ’m
+Sentence: I’m proud of the way we are raising money.”
+Selected targets: ["proud of the way we are raising money","money"]
+Selected details: [{"target":"proud of the way we are raising money","role":"object","event":"’m","confidence":"medium","embedded_entities":[]},{"target":"money","role":"object","event":"raising","confidence":"high","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["we"]
+
+[33]
+Gold target: ’m
+Sentence: “Well, I’m not crazy about people disrupting meetings, but the fact of the matter is Secretary Clinton has taken significant sums of money from the fossil fuel industry,” Mr. Sanders of Vermont said on ABC’s “Good Morning America.”
+Selected targets: ["crazy about people disrupting meetings","meetings","significant sums of money","Secretary Clinton","ABC’s “Good Morning America","Mr. Sanders of Vermont"]
+Selected details: [{"target":"crazy about people disrupting meetings","role":"object","event":"’m","confidence":"medium","embedded_entities":[]},{"target":"meetings","role":"object","event":"disrupting","confidence":"medium","embedded_entities":[]},{"target":"significant sums of money","role":"object","event":"taken","confidence":"medium","embedded_entities":[]},{"target":"Secretary Clinton","role":"subject","event":"taken","confidence":"medium","embedded_entities":["Clinton"]},{"target":"ABC’s “Good Morning America","role":"object","event":"said","confidence":"medium","embedded_entities":["ABC","Good Morning America"]},{"target":"Mr. Sanders of Vermont","role":"subject","event":"said","confidence":"high","embedded_entities":["Sanders","Vermont"]}]
+Resolved entities: ["Clinton","Sanders","Vermont","ABC","Good Morning America"]
+Unresolved mentions: ["I"]
+
+[34]
+Gold target: him
+Sentence: Franken, who said that some of the complaints against him were “simply not true” and that he remembers others “differently,” also took a parting shot at President Trump.
+Selected targets: ["others","a parting shot at President Trump","Franken"]
+Selected details: [{"target":"others","role":"object","event":"remembers","confidence":"medium","embedded_entities":[]},{"target":"a parting shot at President Trump","role":"object","event":"took","confidence":"medium","embedded_entities":["Trump"]},{"target":"Franken","role":"subject","event":"took","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Franken","Trump"]
+Unresolved mentions: []
+
+[35]
+Gold target: his
+Sentence: After his arrest Friday, Abdeslam told authorities he had created a new network and was planning new attacks.
+Selected targets: ["authorities","Abdeslam","a new network","new attacks"]
+Selected details: [{"target":"authorities","role":"object","event":"told","confidence":"medium","embedded_entities":[]},{"target":"Abdeslam","role":"subject","event":"told","confidence":"medium","embedded_entities":[]},{"target":"a new network","role":"object","event":"created","confidence":"medium","embedded_entities":[]},{"target":"new attacks","role":"object","event":"planning","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Abdeslam"]
+Unresolved mentions: []
+
+[36]
+Gold target: Tuesday
+Sentence: “I love Sarah Palin, Sarah Palin is fantastic, without her friendship and support I wouldn’t be in the Senate today,” he said in New Hampshire on Tuesday.
+Selected targets: ["Sarah Palin","New Hampshire"]
+Selected details: [{"target":"Sarah Palin","role":"object","event":"love","confidence":"medium","embedded_entities":[]},{"target":"New Hampshire","role":"object","event":"said","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Sarah Palin","Senate","New Hampshire"]
+Unresolved mentions: ["I"]
+
+[37]
+Gold target: the world
+Sentence: Francis said the human dignity of far too many people around the world was trampled on, including that of refugees and migrants.
+Selected targets: ["Francis"]
+Selected details: [{"target":"Francis","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Francis"]
+Unresolved mentions: []
+
+[38]
+Gold target: Tisquantum
+Sentence: A website Peters helped create for the 400th anniversary of the Pilgrims' arrival puts it even more bluntly: "The graveyard of [Tisquantum's] people became Plymouth Colony."
+Selected targets: ["Peters","A website  for the 400th anniversary of the Pilgrims' arrival","Plymouth Colony"]
+Selected details: [{"target":"Peters","role":"subject","event":"helped","confidence":"medium","embedded_entities":[]},{"target":"A website  for the 400th anniversary of the Pilgrims' arrival","role":"subject","event":"puts","confidence":"medium","embedded_entities":["Pilgrims"]},{"target":"Plymouth Colony","role":"object","event":"became","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Peters","Pilgrims","Plymouth Colony"]
+Unresolved mentions: ["it"]
+
+[39]
+Gold target: Sunday
+Sentence: John Conyers and even questioning those accusing him of sexual harassment during a Sunday interview.
+Selected targets: ["John Conyers"]
+Selected details: [{"target":"John Conyers","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["John Conyers"]
+Unresolved mentions: ["those"]
+
+[40]
+Gold target: his
+Sentence: The debate’s focus, jobs and the economy, should play to his strength.
+Selected targets: ["The debate’s focus jobs and the economy"]
+Selected details: [{"target":"The debate’s focus jobs and the economy","role":"subject","event":"play","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[41]
+Gold target: the third quarter
+Sentence: Among presidential candidates who have built top-tier-level campaigns, only Republican Jeb Bush relied more on major donors and less on small donors in the third quarter.
+Selected targets: ["top-tier-level campaigns","only Republican Jeb Bush"]
+Selected details: [{"target":"top-tier-level campaigns","role":"object","event":"built","confidence":"medium","embedded_entities":[]},{"target":"only Republican Jeb Bush","role":"subject","event":"relied","confidence":"medium","embedded_entities":["Republican","Jeb Bush"]}]
+Resolved entities: ["Republican","Jeb Bush"]
+Unresolved mentions: ["who"]
+
+[42]
+Gold target: Monday
+Sentence: One official said Mulvaney would "show up Monday, go into the office and start working."
+Selected targets: ["One official","Mulvaney"]
+Selected details: [{"target":"One official","role":"subject","event":"said","confidence":"high","embedded_entities":[]},{"target":"Mulvaney","role":"subject","event":"show","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Mulvaney"]
+Unresolved mentions: []
+
+[43]
+Gold target: he
+Sentence: You know he's not even an American."
+Selected targets: ["American"]
+Selected details: [{"target":"American","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["American"]
+Unresolved mentions: ["You"]
+
+[44]
+Gold target: the county clerk
+Sentence: Here's raw footage of the confrontation. http://goo.gl/jYNVXo UPDATE: The lawyers for the same-sex couples who originally sued Davis filed a motion Tuesday to hold the county clerk in contempt of court for refusing to issue them a marriage license.
+Selected targets: ["Davis","a motion","The lawyers for the same-sex couples who originally sued Davis","a marriage license"]
+Selected details: [{"target":"Davis","role":"object","event":"sued","confidence":"medium","embedded_entities":[]},{"target":"a motion","role":"object","event":"filed","confidence":"medium","embedded_entities":[]},{"target":"The lawyers for the same-sex couples who originally sued Davis","role":"subject","event":"filed","confidence":"medium","embedded_entities":["Davis"]},{"target":"a marriage license","role":"object","event":"issue","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Davis"]
+Unresolved mentions: ["who","them"]
+
+[45]
+Gold target: ’m
+Sentence: “I’m running for president to fight and win for the American people,” he said in a video posted online Monday.
+Selected targets: ["for the American people"]
+Selected details: [{"target":"for the American people","role":"object","event":"win","confidence":"medium","embedded_entities":["American"]}]
+Resolved entities: ["American"]
+Unresolved mentions: ["I","he"]
+
+[46]
+Gold target: Twitter
+Sentence: Mr. Trump has said nothing on Twitter about Mr. Moore, who has been abandoned by many national Republicans.
+Selected targets: ["nothing","Mr. Trump","many national Republicans"]
+Selected details: [{"target":"nothing","role":"object","event":"said","confidence":"medium","embedded_entities":[]},{"target":"Mr. Trump","role":"subject","event":"said","confidence":"high","embedded_entities":["Trump"]},{"target":"many national Republicans","role":"object","event":"abandoned","confidence":"medium","embedded_entities":["Republicans"]}]
+Resolved entities: ["Trump","Moore","Republicans"]
+Unresolved mentions: ["who"]
+
+[47]
+Gold target: him
+Sentence: "Now it's a one-man show and it makes it more difficult for him," Favro said.
+Selected targets: ["Favro"]
+Selected details: [{"target":"Favro","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Favro"]
+Unresolved mentions: ["it"]
+
+[48]
+Gold target: He
+Sentence: "He's been out of prison for three weeks.
+Selected targets: ["prison"]
+Selected details: [{"target":"prison","role":"noun_phrase","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[49]
+Gold target: the show
+Sentence: After the show, Grammys Executive Producer Ken Ehrlich said getting Clinton to appear in the skit wasn't tough.
+Selected targets: ["Grammys Executive Producer Ken Ehrlich","Clinton"]
+Selected details: [{"target":"Grammys Executive Producer Ken Ehrlich","role":"subject","event":"said","confidence":"high","embedded_entities":["Grammys","Ken Ehrlich"]},{"target":"Clinton","role":"subject","event":"appear","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Grammys","Ken Ehrlich","Clinton"]
+Unresolved mentions: []
+
+[50]
+Gold target: announcement speech
+Sentence: “Hillary Clinton’s announcement speech was chock full of hypocritical attacks, partisan rhetoric and ideas from the past that have led to a sluggish economy leaving too many Americans behind,” she said.
+Selected targets: ["too many Americans","a sluggish economy"]
+Selected details: [{"target":"too many Americans","role":"object","event":"leaving","confidence":"medium","embedded_entities":["Americans"]},{"target":"a sluggish economy","role":"subject","event":"leaving","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Hillary Clinton’s","Americans"]
+Unresolved mentions: ["that"]
+
+[51]
+Gold target: him
+Sentence: His absolute honor made him a role model for our family.
+Selected targets: ["His absolute honor"]
+Selected details: [{"target":"His absolute honor","role":"subject","event":"made","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["His"]
+
+[52]
+Gold target: his
+Sentence: After his death, al-Qaida's leadership called for lone wolf attacks, and Suri's idea of "individual jihad" has won out.
+Selected targets: ["al-Qaida's leadership","Suri's idea of \"individual jihad\""]
+Selected details: [{"target":"al-Qaida's leadership","role":"subject","event":"called","confidence":"medium","embedded_entities":["al-Qaida's"]},{"target":"Suri's idea of \"individual jihad\"","role":"subject","event":"won","confidence":"medium","embedded_entities":["Suri"]}]
+Resolved entities: ["al-Qaida's","Suri"]
+Unresolved mentions: []
+
+[53]
+Gold target: Friday
+Sentence: He went to Buckingham Palace on Friday for the formal step of being invited by the queen to form a new government.
+Selected targets: ["Buckingham Palace","the queen","a new government"]
+Selected details: [{"target":"Buckingham Palace","role":"object","event":"went","confidence":"medium","embedded_entities":[]},{"target":"the queen","role":"object","event":"invited","confidence":"medium","embedded_entities":[]},{"target":"a new government","role":"object","event":"form","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Buckingham Palace"]
+Unresolved mentions: ["He"]
+
+[54]
+Gold target: him
+Sentence: With the Conservatives winning an outright majority in the 650-seat House of Commons, the election result looked to be far better for him than even his own party had foreseen.
+Selected targets: ["an outright majority in the 650-seat House of Commons","the Conservatives","the election result","even his own party"]
+Selected details: [{"target":"an outright majority in the 650-seat House of Commons","role":"object","event":"winning","confidence":"medium","embedded_entities":["House of Commons"]},{"target":"the Conservatives","role":"subject","event":"winning","confidence":"medium","embedded_entities":["Conservatives"]},{"target":"the election result","role":"subject","event":"looked","confidence":"medium","embedded_entities":[]},{"target":"even his own party","role":"subject","event":"foreseen","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Conservatives","House of Commons"]
+Unresolved mentions: ["his"]
+
+[55]
+Gold target: Thursday
+Sentence: "We're lucky by God's grace we didn't lose two police officers last night," Belmar said at a press conference on Thursday.
+Selected targets: ["two police officers","Belmar"]
+Selected details: [{"target":"two police officers","role":"object","event":"lose","confidence":"medium","embedded_entities":[]},{"target":"Belmar","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Belmar"]
+Unresolved mentions: ["we"]
+
+[56]
+Gold target: Tuesday
+Sentence: WASHINGTON — Anyone who has tried to pry information from the federal government may have been surprised on Tuesday by Hillary Rodham Clinton’s assertion that in all her emails in four years as secretary of state, she never strayed into the classified realm.
+Selected targets: ["information","Hillary Rodham Clinton’s assertion","Anyone","all her emails in four years as secretary of state"]
+Selected details: [{"target":"information","role":"object","event":"pry","confidence":"medium","embedded_entities":[]},{"target":"Hillary Rodham Clinton’s assertion","role":"object","event":"surprised","confidence":"medium","embedded_entities":["Hillary Rodham Clinton’s"]},{"target":"Anyone","role":"subject","event":"surprised","confidence":"medium","embedded_entities":[]},{"target":"all her emails in four years as secretary of state","role":"object","event":"strayed","confidence":"medium","embedded_entities":["state"]}]
+Resolved entities: ["WASHINGTON","Hillary Rodham Clinton’s","state"]
+Unresolved mentions: ["who"]
+
+[57]
+Gold target: the letter “
+Sentence: Biden released a strongly worded statement on Monday night, saying that the letter “is beneath the dignity of an institution I revere.”
+Selected targets: ["a strongly worded statement","Biden"]
+Selected details: [{"target":"a strongly worded statement","role":"object","event":"released","confidence":"medium","embedded_entities":[]},{"target":"Biden","role":"subject","event":"released","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Biden"]
+Unresolved mentions: []
+
+[58]
+Gold target: me
+Sentence: Because it’s never been about me, it’s always been about them.”
+Selected targets: []
+Selected details: []
+Resolved entities: []
+Unresolved mentions: []
+
+[59]
+Gold target: Monday
+Sentence: On Monday, Sheriff Tackitt of Wilson County, where First Baptist is located, described Mr. Kelley’s horrific and methodical path through the church.
+Selected targets: ["First Baptist","Mr. Kelley’s horrific and methodical path through the church","Sheriff Tackitt of Wilson County, where First Baptist is located,"]
+Selected details: [{"target":"First Baptist","role":"subject","event":"located","confidence":"medium","embedded_entities":[]},{"target":"Mr. Kelley’s horrific and methodical path through the church","role":"object","event":"described","confidence":"medium","embedded_entities":["Kelley"]},{"target":"Sheriff Tackitt of Wilson County, where First Baptist is located,","role":"subject","event":"described","confidence":"medium","embedded_entities":["Tackitt","Wilson County","First Baptist"]}]
+Resolved entities: ["Tackitt","Wilson County","First Baptist","Kelley"]
+Unresolved mentions: []
+
+[60]
+Gold target: her
+Sentence: But unlike her, I’ve actually accomplished something.”
+Selected targets: ["something"]
+Selected details: [{"target":"something","role":"object","event":"accomplished","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[61]
+Gold target: the middle class
+Sentence: Mr. Obama’s plans — which would offer free community college for millions of students, paid leave for workers and more generous government assistance for education, child care and retirement savings for the middle class — are to be financed in large part by $320 billion in tax increases over the next decade on higher income earners as well as a fee on large financial institutions.
+Selected targets: ["free community college for millions of students","$320 billion in tax increases over the next decade on higher income earners"]
+Selected details: [{"target":"free community college for millions of students","role":"object","event":"offer","confidence":"medium","embedded_entities":[]},{"target":"$320 billion in tax increases over the next decade on higher income earners","role":"object","event":"financed","confidence":"medium","embedded_entities":["$320 billion"]}]
+Resolved entities: ["Obama","$320 billion"]
+Unresolved mentions: ["which"]
+
+[62]
+Gold target: himself
+Sentence: The show of support from GOP leaders came as Scalise has found himself under fire for being a guest speaker at a 2002 meeting of the European-American Unity and Rights Organization, a group founded by former Ku Klux Klan leader David Duke.
+Selected targets: ["The show of support from GOP leaders","Scalise","former Ku Klux Klan leader David Duke"]
+Selected details: [{"target":"The show of support from GOP leaders","role":"subject","event":"came","confidence":"medium","embedded_entities":["GOP"]},{"target":"Scalise","role":"subject","event":"found","confidence":"medium","embedded_entities":[]},{"target":"former Ku Klux Klan leader David Duke","role":"object","event":"founded","confidence":"medium","embedded_entities":["Ku Klux Klan","David Duke"]}]
+Resolved entities: ["GOP","Scalise","the European-American Unity and Rights Organization","Ku Klux Klan","David Duke"]
+Unresolved mentions: []
+
+[63]
+Gold target: Wednesday
+Sentence: On Wednesday, those critics were out in force: Senator Marco Rubio, Republican of Florida and a likely candidate for president in 2016, denounced the president’s move as “disgraceful” and “just another concession to a tyranny.”
+Selected targets: ["the president’s move","Senator Marco Rubio"]
+Selected details: [{"target":"the president’s move","role":"object","event":"denounced","confidence":"medium","embedded_entities":[]},{"target":"Senator Marco Rubio","role":"subject","event":"denounced","confidence":"medium","embedded_entities":["Marco Rubio"]}]
+Resolved entities: ["Marco Rubio","Republican","Florida"]
+Unresolved mentions: []
+
+[64]
+Gold target: it
+Sentence: But Pelosi savaged it is a scathing floor speech.
+Selected targets: ["Pelosi"]
+Selected details: [{"target":"Pelosi","role":"subject","event":"savaged","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Pelosi"]
+Unresolved mentions: []
+
+[65]
+Gold target: she
+Sentence: And 49 percent think she is better at having a vision for the future, compared to 43 percent for Mr. Romney.
+Selected targets: ["49 percent","a vision for the future","43 percent for Mr. Romney"]
+Selected details: [{"target":"49 percent","role":"subject","event":"think","confidence":"medium","embedded_entities":[]},{"target":"a vision for the future","role":"object","event":"having","confidence":"medium","embedded_entities":[]},{"target":"43 percent for Mr. Romney","role":"object","event":"compared","confidence":"medium","embedded_entities":["Romney"]}]
+Resolved entities: ["Romney"]
+Unresolved mentions: []
+
+[66]
+Gold target: he
+Sentence: EXCLUSIVE - Just talked w/ @SenatorHarkin \- says he "was wrong" to make Taylor Swift remarks re: @joniernst \- "Didn't mean to hurt anyone"
+Selected targets: ["Taylor Swift remarks re: @joniernst","anyone"]
+Selected details: [{"target":"Taylor Swift remarks re: @joniernst","role":"object","event":"make","confidence":"medium","embedded_entities":["Taylor Swift"]},{"target":"anyone","role":"object","event":"hurt","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Taylor Swift"]
+Unresolved mentions: []
+
+[67]
+Gold target: ’m
+Sentence: “I’m so glad I can early vote,” he says while getting his ballot at the Dr. Martin Luther King Community Service Center.
+Selected targets: ["so glad","the Dr. Martin Luther King Community Service Center"]
+Selected details: [{"target":"so glad","role":"object","event":"’m","confidence":"medium","embedded_entities":[]},{"target":"the Dr. Martin Luther King Community Service Center","role":"object","event":"getting","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["the Dr. Martin Luther King Community Service Center"]
+Unresolved mentions: ["I","he","his"]
+
+[68]
+Gold target: the economy
+Sentence: Even if there have been significant gains in the economy, that positive news probably won’t overcome the increasingly negative ratings of Mr. Obama.
+Selected targets: ["the increasingly negative ratings of Mr. Obama","that positive news"]
+Selected details: [{"target":"the increasingly negative ratings of Mr. Obama","role":"object","event":"overcome","confidence":"medium","embedded_entities":["Obama"]},{"target":"that positive news","role":"subject","event":"overcome","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Obama"]
+Unresolved mentions: ["that"]
+
+[69]
+Gold target: her
+Sentence: However, the string of embarrassments continued to pile up under her tenure, with an intruder making it over the White House fence and across the ground floor of the residence before being apprehended and another man reportedly carrying a gun while operating an elevator Obama rode in during a Georgia visit last month.
+Selected targets: ["the string of embarrassments","the White House fence","an intruder","a gun","an elevator","a Georgia visit last month","Obama"]
+Selected details: [{"target":"the string of embarrassments","role":"subject","event":"continued","confidence":"medium","embedded_entities":[]},{"target":"the White House fence","role":"object","event":"making","confidence":"medium","embedded_entities":["White House"]},{"target":"an intruder","role":"subject","event":"making","confidence":"medium","embedded_entities":[]},{"target":"a gun","role":"object","event":"carrying","confidence":"medium","embedded_entities":[]},{"target":"an elevator","role":"object","event":"operating","confidence":"medium","embedded_entities":[]},{"target":"a Georgia visit last month","role":"object","event":"rode","confidence":"medium","embedded_entities":["Georgia"]},{"target":"Obama","role":"subject","event":"rode","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["White House","Obama","Georgia"]
+Unresolved mentions: ["it"]
+
+[70]
+Gold target: her
+Sentence: “I didn’t do anything wrong,” Lois Lerner told Politico in an interview published Monday, her first since the scandal broke more than a year ago. “I’m proud of my career and the job I did for this country.”
+Selected targets: ["anything wrong","Politico","Lois Lerner","the scandal","proud of my career and the job I did for this country","for this country"]
+Selected details: [{"target":"anything wrong","role":"object","event":"do","confidence":"medium","embedded_entities":[]},{"target":"Politico","role":"object","event":"told","confidence":"medium","embedded_entities":[]},{"target":"Lois Lerner","role":"subject","event":"told","confidence":"medium","embedded_entities":[]},{"target":"the scandal","role":"subject","event":"broke","confidence":"medium","embedded_entities":[]},{"target":"proud of my career and the job I did for this country","role":"object","event":"’m","confidence":"medium","embedded_entities":[]},{"target":"for this country","role":"object","event":"did","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Lois Lerner","Politico"]
+Unresolved mentions: ["I","this"]
+
+[71]
+Gold target: she
+Sentence: The trial of Mr. Pistorius — white, rich, privileged — was presided over by a judge who is a 66-year-old black woman who grew up poor in Soweto, began studying law in the throes of apartheid, had been arrested during a protest, and did not earn a law degree until she was in her 40s.
+Selected targets: ["a judge","The trial of Mr. Pistorius — white, rich, privileged —","Soweto","law","a law degree"]
+Selected details: [{"target":"a judge","role":"object","event":"presided","confidence":"medium","embedded_entities":[]},{"target":"The trial of Mr. Pistorius — white, rich, privileged —","role":"subject","event":"presided","confidence":"medium","embedded_entities":["Pistorius"]},{"target":"Soweto","role":"object","event":"grew","confidence":"medium","embedded_entities":[]},{"target":"law","role":"object","event":"studying","confidence":"medium","embedded_entities":[]},{"target":"a law degree","role":"object","event":"earn","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Pistorius","Soweto"]
+Unresolved mentions: ["who"]
+
+[72]
+Gold target: the session
+Sentence: The two leaders, ahead of the session, began laying the groundwork for their Middle East mission in a joint op-ed published in Thursday's edition of The Times of London.
+Selected targets: ["The two leaders","the groundwork for their Middle East mission","Thursday's edition of The Times of London"]
+Selected details: [{"target":"The two leaders","role":"subject","event":"began","confidence":"medium","embedded_entities":[]},{"target":"the groundwork for their Middle East mission","role":"object","event":"laying","confidence":"medium","embedded_entities":["Middle East"]},{"target":"Thursday's edition of The Times of London","role":"object","event":"published","confidence":"medium","embedded_entities":["The Times of London"]}]
+Resolved entities: ["Middle East","The Times of London"]
+Unresolved mentions: ["their"]
+
+[73]
+Gold target: just a terrorist group
+Sentence: “They’re beyond just a terrorist group,” Hagel said.
+Selected targets: ["Hagel"]
+Selected details: [{"target":"Hagel","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Hagel"]
+Unresolved mentions: ["They"]
+
+[74]
+Gold target: he
+Sentence: "There is no doubt that he is complicit with the President in encouraging and empowering this illegal invasion, both from a policy perspective by voting for amnesty, and by virtue of his refusal to hold Barack Obama accountable for dereliction of duty and usurpation of Congressional authority."
+Selected targets: ["no doubt","this illegal invasion"]
+Selected details: [{"target":"no doubt","role":"object","event":"is","confidence":"medium","embedded_entities":[]},{"target":"this illegal invasion","role":"object","event":"empowering","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Barack Obama","Congressional"]
+Unresolved mentions: ["this"]
+
+[75]
+Gold target: the attacks
+Sentence: In her now-infamous testimony before Congress, Clinton shouted, “What difference, at this point, does it make?” with reference to the source and rationale for the attacks.
+Selected targets: ["her now-infamous testimony before Congress","Clinton","What difference"]
+Selected details: [{"target":"her now-infamous testimony before Congress","role":"object","event":"shouted","confidence":"medium","embedded_entities":["Congress"]},{"target":"Clinton","role":"subject","event":"shouted","confidence":"medium","embedded_entities":[]},{"target":"What difference","role":"object","event":"make","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Congress","Clinton"]
+Unresolved mentions: ["her"]
+
+[76]
+Gold target: Friday
+Sentence: On Friday, Durand was indicted in Brooklyn on those charges.
+Selected targets: ["Brooklyn","Durand"]
+Selected details: [{"target":"Brooklyn","role":"object","event":"indicted","confidence":"medium","embedded_entities":[]},{"target":"Durand","role":"subject","event":"indicted","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Durand","Brooklyn"]
+Unresolved mentions: []
+
+[77]
+Gold target: it
+Sentence: SEE ALSO: HURT: Obama reveals his obliviousness at Monticello Even as he advanced the bill and voted for it, Mr. Boehner washed his hands of the blame.
+Selected targets: ["his obliviousness at Monticello","Obama","the bill","his hands","Mr. Boehner"]
+Selected details: [{"target":"his obliviousness at Monticello","role":"object","event":"reveals","confidence":"medium","embedded_entities":["Monticello"]},{"target":"Obama","role":"subject","event":"reveals","confidence":"medium","embedded_entities":[]},{"target":"the bill","role":"object","event":"advanced","confidence":"medium","embedded_entities":[]},{"target":"his hands","role":"object","event":"washed","confidence":"medium","embedded_entities":[]},{"target":"Mr. Boehner","role":"subject","event":"washed","confidence":"medium","embedded_entities":["Boehner"]}]
+Resolved entities: ["Obama","Monticello","Boehner"]
+Unresolved mentions: []
+
+[78]
+Gold target: Trump
+Sentence: That was why, Flynt wrote, he was seeking information from anyone who could provide a “smoking gun” — perhaps buried in Trump's tax returns or in some other investment records — that would lead to his impeachment.
+Selected targets: ["Flynt","information","a “smoking gun” —"]
+Selected details: [{"target":"Flynt","role":"subject","event":"wrote","confidence":"medium","embedded_entities":[]},{"target":"information","role":"object","event":"seeking","confidence":"medium","embedded_entities":[]},{"target":"a “smoking gun” —","role":"object","event":"provide","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Flynt"]
+Unresolved mentions: ["that"]
+
+[79]
+Gold target: this year
+Sentence: Paul Ryan: Immigration reform this year ‘clearly in doubt’
+Selected targets: ["Paul Ryan"]
+Selected details: [{"target":"Paul Ryan","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["Paul Ryan"]
+Unresolved mentions: []
+
+[80]
+Gold target: we
+Sentence: Griffin also contended that “we were transparent.
+Selected targets: ["Griffin"]
+Selected details: [{"target":"Griffin","role":"subject","event":"contended","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Griffin"]
+Unresolved mentions: []
+
+[81]
+Gold target: Thursday
+Sentence: Christie stressed Thursday that he was not involved and that while his political style is tough, "I am not a bully."
+Selected targets: ["Christie","a bully"]
+Selected details: [{"target":"Christie","role":"subject","event":"stressed","confidence":"medium","embedded_entities":[]},{"target":"a bully","role":"object","event":"am","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Christie"]
+Unresolved mentions: []
+
+[82]
+Gold target: Tuesday
+Sentence: Asked Tuesday if Obama agreed, Carney said: "The answer's yes."
+Selected targets: ["Obama","Carney"]
+Selected details: [{"target":"Obama","role":"subject","event":"agreed","confidence":"medium","embedded_entities":[]},{"target":"Carney","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Obama","Carney"]
+Unresolved mentions: []
+
+[83]
+Gold target: the four congressional leaders
+Sentence: Still, it was clear that Mr. Obama was no more ready to negotiate than the four congressional leaders.
+Selected targets: ["clear"]
+Selected details: [{"target":"clear","role":"object","event":"was","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Obama"]
+Unresolved mentions: ["it"]
+
+[84]
+Gold target: me
+Sentence: “Moreover, the chairman has indicated to me that our capacity to execute this mission is not time-sensitive; it will be effective tomorrow, or next week, or one month from now.
+Selected targets: ["the chairman","this mission","effective"]
+Selected details: [{"target":"the chairman","role":"subject","event":"indicated","confidence":"medium","embedded_entities":[]},{"target":"this mission","role":"object","event":"execute","confidence":"medium","embedded_entities":[]},{"target":"effective","role":"object","event":"be","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["it","this"]
+
+[85]
+Gold target: Friday
+Sentence: This is the right thing to do," Feinstein said in a statement Friday.
+Selected targets: ["Feinstein"]
+Selected details: [{"target":"Feinstein","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Feinstein"]
+Unresolved mentions: []
+
+[86]
+Gold target: his effort
+Sentence: Amash told the House that his effort was to defend the Constitution and "defend the privacy of every American."
+Selected targets: ["the House","Amash","the Constitution","the privacy of every American"]
+Selected details: [{"target":"the House","role":"object","event":"told","confidence":"medium","embedded_entities":["House"]},{"target":"Amash","role":"subject","event":"told","confidence":"medium","embedded_entities":[]},{"target":"the Constitution","role":"object","event":"defend","confidence":"medium","embedded_entities":["Constitution"]},{"target":"the privacy of every American","role":"object","event":"defend","confidence":"medium","embedded_entities":["American"]}]
+Resolved entities: ["Amash","House","Constitution","American"]
+Unresolved mentions: []
+
+[87]
+Gold target: ” Sen.
+Sentence: “I saw an interview in which Mr. Snowden claimed that due to his position at NSA he could tap into virtually any American’s phone call or e-mails,” Sen.
+Selected targets: ["an interview","Mr. Snowden","his position at NSA"]
+Selected details: [{"target":"an interview","role":"object","event":"saw","confidence":"medium","embedded_entities":[]},{"target":"Mr. Snowden","role":"subject","event":"claimed","confidence":"medium","embedded_entities":["Snowden"]},{"target":"his position at NSA","role":"object","event":"tap","confidence":"medium","embedded_entities":["NSA"]}]
+Resolved entities: ["Snowden","NSA","American"]
+Unresolved mentions: ["I"]
+
+[88]
+Gold target: the tea party
+Sentence: “It also shows the limits and the inability of the tea party to find a popular platform that could win majorities, and that is what happened to Michelle Bachmann.”
+Selected targets: ["the limits","a popular platform","majorities","Michelle Bachmann"]
+Selected details: [{"target":"the limits","role":"object","event":"shows","confidence":"medium","embedded_entities":[]},{"target":"a popular platform","role":"object","event":"find","confidence":"medium","embedded_entities":[]},{"target":"majorities","role":"object","event":"win","confidence":"medium","embedded_entities":[]},{"target":"Michelle Bachmann","role":"object","event":"happened","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Michelle Bachmann"]
+Unresolved mentions: ["It","that","what"]
+
+[89]
+Gold target: Wednesday
+Sentence: There was no indication on Wednesday why Mr. Todashev — who, like the Tsarnaevs, was an ethnic Chechen — would have implicated himself and Mr. Tsarnaev in the murders.
+Selected targets: ["no indication","himself","Mr. Todashev — —"]
+Selected details: [{"target":"no indication","role":"object","event":"was","confidence":"medium","embedded_entities":[]},{"target":"himself","role":"object","event":"implicated","confidence":"medium","embedded_entities":[]},{"target":"Mr. Todashev — —","role":"subject","event":"implicated","confidence":"medium","embedded_entities":["Todashev"]}]
+Resolved entities: ["Todashev","Tsarnaevs","Chechen","Tsarnaev"]
+Unresolved mentions: []
+
+[90]
+Gold target: two people
+Sentence: UPDATE: 3/15 9:15 a.m. -- Portman has penned an column for the Columbus Dispatch explaining his reversal: "I have come to believe that if two people are prepared to make a lifetime commitment to love and care for each other in good times and in bad, the government shouldn’t deny them the opportunity to get married," he writes.
+Selected targets: ["an column for the Columbus Dispatch","Portman","his reversal","a lifetime commitment","the opportunity"]
+Selected details: [{"target":"an column for the Columbus Dispatch","role":"object","event":"penned","confidence":"medium","embedded_entities":["the Columbus Dispatch"]},{"target":"Portman","role":"subject","event":"penned","confidence":"medium","embedded_entities":[]},{"target":"his reversal","role":"object","event":"explaining","confidence":"medium","embedded_entities":[]},{"target":"a lifetime commitment","role":"object","event":"make","confidence":"medium","embedded_entities":[]},{"target":"the opportunity","role":"object","event":"deny","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Portman","the Columbus Dispatch"]
+Unresolved mentions: ["them"]
+
+[91]
+Gold target: Sunday
+Sentence: In the interview, which was taped Thursday and aired Sunday, Romney also said he and his campaign underestimated the appeal of Obama's new health care law to low-income voters.
+Selected targets: ["Romney","the appeal of Obama's new health care law to low-income voters","his campaign"]
+Selected details: [{"target":"Romney","role":"subject","event":"said","confidence":"high","embedded_entities":[]},{"target":"the appeal of Obama's new health care law to low-income voters","role":"object","event":"underestimated","confidence":"medium","embedded_entities":["Obama"]},{"target":"his campaign","role":"subject","event":"underestimated","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Romney","Obama"]
+Unresolved mentions: ["he","which"]
+
+[92]
+Gold target: Sunday
+Sentence: Mitt Romney, the 2012 Republican presidential nominee, gave an unflinching review Sunday of his unsuccessful campaign, admitting his shortcomings and disappointments but vowing to remain a force in American politics.
+Selected targets: ["an unflinching review of his unsuccessful campaign","Mitt Romney the 2012 Republican presidential nominee","his shortcomings","a force in American politics"]
+Selected details: [{"target":"an unflinching review of his unsuccessful campaign","role":"object","event":"gave","confidence":"medium","embedded_entities":[]},{"target":"Mitt Romney the 2012 Republican presidential nominee","role":"subject","event":"gave","confidence":"medium","embedded_entities":["Mitt Romney","Republican"]},{"target":"his shortcomings","role":"object","event":"admitting","confidence":"medium","embedded_entities":[]},{"target":"a force in American politics","role":"object","event":"remain","confidence":"medium","embedded_entities":["American"]}]
+Resolved entities: ["Mitt Romney","Republican","American"]
+Unresolved mentions: []
+
+[93]
+Gold target: Sen.
+Sentence: "His performance before this committee was the worst that I have seen for any nominee for office," Sen.
+Selected targets: ["the worst","His performance before this committee"]
+Selected details: [{"target":"the worst","role":"object","event":"was","confidence":"medium","embedded_entities":[]},{"target":"His performance before this committee","role":"subject","event":"was","confidence":"high","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["His","I","this","that"]
+
+[94]
+Gold target: Friday
+Sentence: “To those who have left the party, we want to earn your trust again,” Mr. Priebus will say in his acceptance speech on Friday, according to excerpts released by his aides.
+Selected targets: ["the party","your trust","Mr. Priebus","his aides"]
+Selected details: [{"target":"the party","role":"object","event":"left","confidence":"medium","embedded_entities":[]},{"target":"your trust","role":"object","event":"earn","confidence":"medium","embedded_entities":[]},{"target":"Mr. Priebus","role":"subject","event":"say","confidence":"high","embedded_entities":["Priebus"]},{"target":"his aides","role":"object","event":"released","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Priebus"]
+Unresolved mentions: ["who","we","your"]
+
+[95]
+Gold target: Christmas
+Sentence: ( Also on POLITICO: John Boehner declares stalemate) Obama struck a playful tone throughout his speech at a toy factory to warn Americans that they could be in for a “lump of coal” for Christmas if Congress fails to extend current middle-class tax rates.
+Selected targets: ["POLITICO","John Boehner","a playful tone","Obama","Americans","Congress","current middle-class tax rates"]
+Selected details: [{"target":"POLITICO","role":"object","event":"declares","confidence":"medium","embedded_entities":[]},{"target":"John Boehner","role":"subject","event":"declares","confidence":"medium","embedded_entities":[]},{"target":"a playful tone","role":"object","event":"struck","confidence":"medium","embedded_entities":[]},{"target":"Obama","role":"subject","event":"struck","confidence":"medium","embedded_entities":[]},{"target":"Americans","role":"object","event":"warn","confidence":"medium","embedded_entities":[]},{"target":"Congress","role":"subject","event":"fails","confidence":"medium","embedded_entities":[]},{"target":"current middle-class tax rates","role":"object","event":"extend","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["POLITICO","John Boehner","Obama","Americans","Congress"]
+Unresolved mentions: []
+
+[96]
+Gold target: Monday
+Sentence: On Monday, through his spokesman, Mr. Morsi again tried to explain his intentions, saying he would work within judicial precedents to hold back efforts to dissolve the constituent assembly, rather than putting his power above judicial scrutiny.
+Selected targets: ["Mr. Morsi","his intentions","efforts","the constituent assembly","his power"]
+Selected details: [{"target":"Mr. Morsi","role":"subject","event":"tried","confidence":"medium","embedded_entities":["Morsi"]},{"target":"his intentions","role":"object","event":"explain","confidence":"medium","embedded_entities":[]},{"target":"efforts","role":"object","event":"hold","confidence":"medium","embedded_entities":[]},{"target":"the constituent assembly","role":"object","event":"dissolve","confidence":"medium","embedded_entities":[]},{"target":"his power","role":"object","event":"putting","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Morsi"]
+Unresolved mentions: ["his"]
+
+[97]
+Gold target: we
+Sentence: “Our challenge is to make sure that we are able to cooperate together, work together, find some common ground, make some tough compromises, build some consensus to do the people’s business,” Mr. Obama said on Friday.
+Selected targets: ["some common ground","some tough compromises","some consensus","Mr. Obama"]
+Selected details: [{"target":"some common ground","role":"object","event":"find","confidence":"medium","embedded_entities":[]},{"target":"some tough compromises","role":"object","event":"make","confidence":"medium","embedded_entities":[]},{"target":"some consensus","role":"object","event":"build","confidence":"medium","embedded_entities":[]},{"target":"Mr. Obama","role":"subject","event":"said","confidence":"high","embedded_entities":["Obama"]}]
+Resolved entities: ["Obama"]
+Unresolved mentions: []
+
+[98]
+Gold target: Monday
+Sentence: More polls will be released later on Monday, including final national numbers from Gallup, whose daily tracking survey has been the most consistently favorable to Romney in October.
+Selected targets: ["Gallup"]
+Selected details: [{"target":"Gallup","role":"subject","event":"released","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Gallup","Romney"]
+Unresolved mentions: ["whose"]
+
+[99]
+Gold target: him
+Sentence: The most recent run of the model, as of this writing, confirms the obvious: The probability of an Obama lead in the key battleground states is very high, given that virtually all polling in these states shows him ahead.
+Selected targets: ["the obvious","The most recent run of the model","virtually all polling in these states"]
+Selected details: [{"target":"the obvious","role":"object","event":"confirms","confidence":"medium","embedded_entities":[]},{"target":"The most recent run of the model","role":"subject","event":"confirms","confidence":"medium","embedded_entities":[]},{"target":"virtually all polling in these states","role":"subject","event":"shows","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Obama"]
+Unresolved mentions: ["these"]
+
+[100]
+Gold target: the economy
+Sentence: A month ago, women favored Obama over Romney on the economy 56 percent to 40 percent.
+Selected targets: ["Obama","Romney","women"]
+Selected details: [{"target":"Obama","role":"object","event":"favored","confidence":"medium","embedded_entities":[]},{"target":"Romney","role":"object","event":"favored","confidence":"medium","embedded_entities":[]},{"target":"women","role":"subject","event":"favored","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Obama","Romney"]
+Unresolved mentions: []
+
+[101]
+Gold target: his president
+Sentence: Like he did many times before, Biden served dutifully, not only in service to his president but to his party and his country.
+Selected targets: ["Biden"]
+Selected details: [{"target":"Biden","role":"subject","event":"served","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Biden"]
+Unresolved mentions: []
+
+[102]
+Gold target: September
+Sentence: Although Obama still leads him by 29 points as better able to connect with ordinary Americans, the gap has narrowed by 14 percentage points since mid-September.
+Selected targets: ["Obama","ordinary Americans","the gap"]
+Selected details: [{"target":"Obama","role":"subject","event":"leads","confidence":"medium","embedded_entities":[]},{"target":"ordinary Americans","role":"object","event":"connect","confidence":"medium","embedded_entities":["Americans"]},{"target":"the gap","role":"subject","event":"narrowed","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Obama","Americans"]
+Unresolved mentions: []
+
+[103]
+Gold target: they
+Sentence: Woodhouse says the way the DNC sees it, challengers win the first debate when they are up against incumbents.
+Selected targets: ["Woodhouse","the DNC","the first debate","challengers"]
+Selected details: [{"target":"Woodhouse","role":"subject","event":"says","confidence":"high","embedded_entities":[]},{"target":"the DNC","role":"subject","event":"sees","confidence":"medium","embedded_entities":["DNC"]},{"target":"the first debate","role":"object","event":"win","confidence":"medium","embedded_entities":[]},{"target":"challengers","role":"subject","event":"win","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Woodhouse","DNC"]
+Unresolved mentions: []
+
+[104]
+Gold target: Tuesday
+Sentence: That legislation ― which has nothing to do with Dreamers ― was the only specific measure that Trump or Attorney General Jeff Sessions mentioned on Tuesday while announcing the DACA decision.
+Selected targets: ["nothing","the only specific measure","That legislation ― ―","Trump","the DACA decision"]
+Selected details: [{"target":"nothing","role":"object","event":"has","confidence":"medium","embedded_entities":[]},{"target":"the only specific measure","role":"object","event":"was","confidence":"medium","embedded_entities":[]},{"target":"That legislation ― ―","role":"subject","event":"was","confidence":"high","embedded_entities":[]},{"target":"Trump","role":"subject","event":"mentioned","confidence":"medium","embedded_entities":[]},{"target":"the DACA decision","role":"object","event":"announcing","confidence":"high","embedded_entities":["DACA"]}]
+Resolved entities: ["Trump","Jeff Sessions","DACA"]
+Unresolved mentions: ["That","which"]
+
+[105]
+Gold target: Wednesday
+Sentence: A new video released Wednesday by the Obama campaign cast him as "out of step" with voters, and someone from a "bygone era."
+Selected targets: ["the Obama campaign","A new video"]
+Selected details: [{"target":"the Obama campaign","role":"object","event":"released","confidence":"medium","embedded_entities":["Obama"]},{"target":"A new video","role":"subject","event":"cast","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Obama"]
+Unresolved mentions: []
+
+[106]
+Gold target: Friday
+Sentence: GOP presidential hopeful Mitt Romney said Friday that the latest jobs numbers released Friday, showing anemic job growth and an unemployment rate unchanged at 8.2 percent, are the latest proof that President Obama’s economic plans have failed the country.
+Selected targets: ["GOP presidential hopeful Mitt Romney","anemic job growth","President Obama’s economic plans"]
+Selected details: [{"target":"GOP presidential hopeful Mitt Romney","role":"subject","event":"said","confidence":"high","embedded_entities":["GOP","Mitt Romney"]},{"target":"anemic job growth","role":"object","event":"showing","confidence":"medium","embedded_entities":[]},{"target":"President Obama’s economic plans","role":"subject","event":"failed","confidence":"medium","embedded_entities":["Obama"]}]
+Resolved entities: ["GOP","Mitt Romney","Obama"]
+Unresolved mentions: ["the country"]
+
+[107]
+Gold target: the book
+Sentence: In the book, Bannon slammed the president’s eldest son, Donald Trump Jr., son-in-law Jared Kushner and ex-campaign chairman Paul Manafort.
+Selected targets: ["Donald Trump Jr.","Bannon"]
+Selected details: [{"target":"Donald Trump Jr.","role":"object","event":"slammed","confidence":"medium","embedded_entities":[]},{"target":"Bannon","role":"subject","event":"slammed","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Bannon","Donald Trump Jr.","Jared Kushner","Paul Manafort"]
+Unresolved mentions: []
+
+[108]
+Gold target: the cops
+Sentence: In a city—Chicago, no less, that favorite race-coded target of Trump’s dishonest rhetoric—where the cops can’t or won’t do their job, it falls to Willis to keep the peace, with increasingly small reservations and increasingly large guns.
+Selected targets: ["their job","Willis","the peace"]
+Selected details: [{"target":"their job","role":"object","event":"do","confidence":"medium","embedded_entities":[]},{"target":"Willis","role":"object","event":"falls","confidence":"medium","embedded_entities":[]},{"target":"the peace","role":"object","event":"keep","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Chicago","Trump","Willis"]
+Unresolved mentions: ["it","that","their"]
+
+[109]
+Gold target: myself
+Sentence: “When you’re in a house by yourself, which I am as a self-employed [person] a lot of times, talking to myself out loud is just not a thing I do.”
+Selected targets: ["a house"]
+Selected details: [{"target":"a house","role":"noun_phrase","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["you","I"]
+
+[110]
+Gold target: her family
+Sentence: Nixon was also a regular churchgoer, faithfully attending Tuesday Bible studies and Sunday Mass with her family.
+Selected targets: ["a regular churchgoer","Nixon","Tuesday Bible studies"]
+Selected details: [{"target":"a regular churchgoer","role":"object","event":"was","confidence":"medium","embedded_entities":[]},{"target":"Nixon","role":"subject","event":"was","confidence":"high","embedded_entities":[]},{"target":"Tuesday Bible studies","role":"object","event":"attending","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Nixon"]
+Unresolved mentions: []
+
+[111]
+Gold target: Wednesday
+Sentence: In a news release Wednesday, Forrest said he never violated his oath as a police officer or engaged in actions that would abuse the public trust.
+Selected targets: ["Forrest","his oath as a police officer","the public trust"]
+Selected details: [{"target":"Forrest","role":"subject","event":"said","confidence":"high","embedded_entities":[]},{"target":"his oath as a police officer","role":"object","event":"violated","confidence":"medium","embedded_entities":[]},{"target":"the public trust","role":"object","event":"abuse","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Forrest"]
+Unresolved mentions: []
+
+[112]
+Gold target: the media
+Sentence: Mr. Trump has declared the media the "enemy of the American people," and frequently uses more glowing terms for leaders like North Korea's Kim Jong Un or Russian President Vladimir Putin than American journalists.
+Selected targets: ["Mr. Trump","more glowing terms than American journalists"]
+Selected details: [{"target":"Mr. Trump","role":"subject","event":"declared","confidence":"medium","embedded_entities":["Trump"]},{"target":"more glowing terms than American journalists","role":"object","event":"uses","confidence":"medium","embedded_entities":["American"]}]
+Resolved entities: ["Trump","American","North Korea's","Kim Jong Un","Russian","Vladimir Putin"]
+Unresolved mentions: []
+
+[113]
+Gold target: him
+Sentence: The American people also deserve to know what has happened to him for shedding light on police violence and corruption in Mexico."
+Selected targets: ["The American people","light"]
+Selected details: [{"target":"The American people","role":"subject","event":"deserve","confidence":"medium","embedded_entities":["American"]},{"target":"light","role":"object","event":"shedding","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["American","Mexico"]
+Unresolved mentions: ["what"]
+
+[114]
+Gold target: Thursday
+Sentence: Thursday afternoon, White House press secretary Sarah Sanders declined to contradict Mr. Trump's past comments describing the press as the enemy of the people.
+Selected targets: ["White House press secretary Sarah Sanders","Mr. Trump's past comments","the press"]
+Selected details: [{"target":"White House press secretary Sarah Sanders","role":"subject","event":"declined","confidence":"medium","embedded_entities":["White House","Sarah Sanders"]},{"target":"Mr. Trump's past comments","role":"object","event":"contradict","confidence":"medium","embedded_entities":["Trump"]},{"target":"the press","role":"object","event":"describing","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["White House","Sarah Sanders","Trump"]
+Unresolved mentions: []
+
+[115]
+Gold target: his
+Sentence: In his first interview since sustaining a life-threatening gunshot wound, Rep.
+Selected targets: ["a life-threatening gunshot wound"]
+Selected details: [{"target":"a life-threatening gunshot wound","role":"object","event":"sustaining","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[116]
+Gold target: February
+Sentence: She had seemed to come out of virtually nowhere to secure that victory in February, having polled as low as 2.8 percent just a month earlier.
+Selected targets: ["that victory"]
+Selected details: [{"target":"that victory","role":"object","event":"secure","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["She","that"]
+
+[117]
+Gold target: the university
+Sentence: Before this donation, Bloomberg had already donated a total of $1.5 billion to the university.
+Selected targets: ["a total of $1.5 billion","Bloomberg"]
+Selected details: [{"target":"a total of $1.5 billion","role":"object","event":"donated","confidence":"medium","embedded_entities":["$1.5 billion"]},{"target":"Bloomberg","role":"subject","event":"donated","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Bloomberg","$1.5 billion"]
+Unresolved mentions: []
+
+[118]
+Gold target: her
+Sentence: Maya is now in Istanbul with her father, who shares the same disability.
+Selected targets: ["the same disability"]
+Selected details: [{"target":"the same disability","role":"object","event":"shares","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Maya","Istanbul"]
+Unresolved mentions: ["who"]
+
+[119]
+Gold target: that night
+Sentence: She also admitted to drinking and smoking marijuana that night.
+Selected targets: ["marijuana"]
+Selected details: [{"target":"marijuana","role":"object","event":"smoking","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["She"]
+
+[120]
+Gold target: his
+Sentence: But in his campaign, President Donald Trump vowed to impose punitive tariffs on goods from countries he believes harm American workers by flouting global trade rules.
+Selected targets: ["President Donald Trump","punitive tariffs","American workers","global trade rules"]
+Selected details: [{"target":"President Donald Trump","role":"subject","event":"vowed","confidence":"medium","embedded_entities":["Donald Trump"]},{"target":"punitive tariffs","role":"object","event":"impose","confidence":"high","embedded_entities":[]},{"target":"American workers","role":"object","event":"harm","confidence":"medium","embedded_entities":["American"]},{"target":"global trade rules","role":"object","event":"flouting","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Donald Trump","American"]
+Unresolved mentions: []
+
+[121]
+Gold target: he
+Sentence: "I know he's a busy man.
+Selected targets: ["a busy man"]
+Selected details: [{"target":"a busy man","role":"noun_phrase","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["I"]
+
+[122]
+Gold target: his release
+Sentence: As condition of his release, Yusuf is barred from social media and accessing content with extremist views.
+Selected targets: ["Yusuf","content with extremist views"]
+Selected details: [{"target":"Yusuf","role":"subject","event":"barred","confidence":"medium","embedded_entities":[]},{"target":"content with extremist views","role":"object","event":"accessing","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Yusuf"]
+Unresolved mentions: []
+
+[123]
+Gold target: the commission
+Sentence: George has played a prominent role in the creation of the commission, according to a source familiar with the plans for the commission.
+Selected targets: ["a prominent role","George"]
+Selected details: [{"target":"a prominent role","role":"object","event":"played","confidence":"medium","embedded_entities":[]},{"target":"George","role":"subject","event":"played","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["George"]
+Unresolved mentions: []
+
+[124]
+Gold target: the president
+Sentence: "Whoever the president is, regardless of your political party you want a president to feel welcome and be safe," Frankel said.
+Selected targets: ["welcome","a president","Frankel"]
+Selected details: [{"target":"welcome","role":"object","event":"feel","confidence":"medium","embedded_entities":[]},{"target":"a president","role":"subject","event":"feel","confidence":"medium","embedded_entities":[]},{"target":"Frankel","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Frankel"]
+Unresolved mentions: ["you"]
+
+[125]
+Gold target: the hearing
+Sentence: Add Interest
+The cabinet secretary came under sharp questioning at the hearing last month and was called out on Twitter for mishearing the housing term “REO” as an OREO cookie.
+Selected targets: ["The cabinet secretary","the housing term “REO”"]
+Selected details: [{"target":"The cabinet secretary","role":"subject","event":"came","confidence":"medium","embedded_entities":[]},{"target":"the housing term “REO”","role":"object","event":"mishearing","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Add Interest"]
+Unresolved mentions: []
+
+[126]
+Gold target: Madonna
+Sentence: Like John Paul, the Argentinian-born Francis is exceedingly devoted to the Madonna, thanks in large part to the strong role that Marian devotions play in the popular piety of Latin American Catholics.
+Selected targets: ["John Paul","the Argentinian-born Francis","the popular piety of Latin American Catholics","Marian devotions"]
+Selected details: [{"target":"John Paul","role":"object","event":"is","confidence":"medium","embedded_entities":[]},{"target":"the Argentinian-born Francis","role":"subject","event":"is","confidence":"high","embedded_entities":["Argentinian","Francis"]},{"target":"the popular piety of Latin American Catholics","role":"object","event":"play","confidence":"medium","embedded_entities":["Latin American","Catholics"]},{"target":"Marian devotions","role":"subject","event":"play","confidence":"medium","embedded_entities":["Marian"]}]
+Resolved entities: ["John Paul","Argentinian","Francis","Marian","Latin American","Catholics"]
+Unresolved mentions: ["that"]
+
+[127]
+Gold target: him
+Sentence: "As more and more allegations come forward, that adds to the weight of evidence against him ...
+Selected targets: ["more and more allegations"]
+Selected details: [{"target":"more and more allegations","role":"subject","event":"come","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["that"]
+
+[128]
+Gold target: him
+Sentence: Pelosi said she was rooting for him anyway.
+Selected targets: ["Pelosi"]
+Selected details: [{"target":"Pelosi","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Pelosi"]
+Unresolved mentions: []
+
+[129]
+Gold target: last week
+Sentence: When Schumer announced last week that Democrats stood by their $1.6 billion position, he didn’t seem to recognize that most people weren’t aware Democrats had already agreed to that figure over the summer.
+Selected targets: ["Schumer","their $1.6 billion position","Democrats"]
+Selected details: [{"target":"Schumer","role":"subject","event":"announced","confidence":"medium","embedded_entities":[]},{"target":"their $1.6 billion position","role":"object","event":"stood","confidence":"medium","embedded_entities":["$1.6 billion"]},{"target":"Democrats","role":"subject","event":"stood","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Schumer","Democrats","$1.6 billion"]
+Unresolved mentions: ["he"]
+
+[130]
+Gold target: the report
+Sentence: Even if Mueller doesn’t read too far between the lines of the report, his appearance has the potential to articulate the charges made against the president, as well as give momentum to the most damning findings in a way that the detail-rich report has not.
+Selected targets: ["Mueller","the potential","his appearance","the charges","momentum"]
+Selected details: [{"target":"Mueller","role":"subject","event":"read","confidence":"medium","embedded_entities":[]},{"target":"the potential","role":"object","event":"has","confidence":"medium","embedded_entities":[]},{"target":"his appearance","role":"subject","event":"has","confidence":"medium","embedded_entities":[]},{"target":"the charges","role":"object","event":"articulate","confidence":"medium","embedded_entities":[]},{"target":"momentum","role":"object","event":"give","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Mueller"]
+Unresolved mentions: []
+
+[131]
+Gold target: Friday
+Sentence: Sarbjit Kaur, 38, was fatally attacked at her home in Penn, Wolverhampton on Friday.
+Selected targets: ["her home in Penn, Wolverhampton","Sarbjit Kaur","38"]
+Selected details: [{"target":"her home in Penn, Wolverhampton","role":"object","event":"attacked","confidence":"medium","embedded_entities":["Penn","Wolverhampton"]},{"target":"Sarbjit Kaur","role":"subject","event":"attacked","confidence":"medium","embedded_entities":[]},{"target":"38","role":"subject","event":"attacked","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Sarbjit Kaur","Penn","Wolverhampton"]
+Unresolved mentions: []
+
+[132]
+Gold target: that man
+Sentence: Mr Trump had already responded to the leaked emails by saying "we're not big fans of that man and he has not served the UK well".
+Selected targets: ["Mr Trump","the UK"]
+Selected details: [{"target":"Mr Trump","role":"subject","event":"responded","confidence":"medium","embedded_entities":["Trump"]},{"target":"the UK","role":"object","event":"served","confidence":"medium","embedded_entities":["UK"]}]
+Resolved entities: ["Trump","UK"]
+Unresolved mentions: []
+
+[133]
+Gold target: her husband
+Sentence: Lilian Tintori wrote that she would hold President Maduro responsible if something were to happen to her husband.
+Selected targets: ["Lilian Tintori"]
+Selected details: [{"target":"Lilian Tintori","role":"subject","event":"wrote","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Lilian Tintori","Maduro"]
+Unresolved mentions: []
+
+[134]
+Gold target: the economic emancipation campaign
+Sentence: Herbert Smith also found that certain material created by Bell Pottinger for the economic emancipation campaign "was negative or targeted towards wealthy white South African individuals or corporates and/or was potentially racially divisive and/or potentially offensive and was created in breach of relevant ethical principles".
+Selected targets: ["Herbert Smith","Bell Pottinger","wealthy white South African individuals"]
+Selected details: [{"target":"Herbert Smith","role":"subject","event":"found","confidence":"medium","embedded_entities":[]},{"target":"Bell Pottinger","role":"object","event":"created","confidence":"medium","embedded_entities":[]},{"target":"wealthy white South African individuals","role":"object","event":"targeted","confidence":"medium","embedded_entities":["South African"]}]
+Resolved entities: ["Herbert Smith","Bell Pottinger","South African"]
+Unresolved mentions: []
+
+[135]
+Gold target: her
+Sentence: Image caption DUP leader Arlene Foster with Sinn Féin leaders Michelle O'Neill and Mary Lou McDonald in St Anne's Cathedral
+Speaking at the beginning of the service Dean Stephen Forde said: "Lyra was a person who broke down barriers and reached across boundaries, this was her hallmark in life, this is her legacy in death.
+Selected targets: ["Dean Stephen Forde"]
+Selected details: [{"target":"Dean Stephen Forde","role":"subject","event":"said","confidence":"high","embedded_entities":["Stephen Forde"]}]
+Resolved entities: ["DUP","Arlene Foster","Sinn Féin","Michelle O'Neill","Mary Lou McDonald","St Anne's Cathedral","Stephen Forde","Lyra"]
+Unresolved mentions: ["who"]
+
+[136]
+Gold target: him
+Sentence: The new PM will then begin putting together his cabinet - a number of Mrs May's senior ministers have already resigned, having said they could not serve under him.
+Selected targets: ["The new PM","his cabinet","a number of Mrs May's senior ministers"]
+Selected details: [{"target":"The new PM","role":"subject","event":"begin","confidence":"medium","embedded_entities":[]},{"target":"his cabinet","role":"object","event":"putting","confidence":"medium","embedded_entities":[]},{"target":"a number of Mrs May's senior ministers","role":"subject","event":"resigned","confidence":"medium","embedded_entities":["May"]}]
+Resolved entities: ["May"]
+Unresolved mentions: ["his","they"]
+
+[137]
+Gold target: the deaths
+Sentence: Health Minister Abderraouf Cherif resigned on Saturday over the deaths.
+Selected targets: ["Health Minister Abderraouf Cherif"]
+Selected details: [{"target":"Health Minister Abderraouf Cherif","role":"subject","event":"resigned","confidence":"medium","embedded_entities":["Health","Abderraouf Cherif"]}]
+Resolved entities: ["Health","Abderraouf Cherif"]
+Unresolved mentions: []
+
+[138]
+Gold target: her
+Sentence: Dr Hallett, who spent six weeks in a residential home as part of her research and interviewed foster parents and young people, said social workers and those working in care homes felt their work revolved around managing risky behaviours, but did not have the resources to focus on deeper causes.
+Selected targets: ["foster parents","Dr Hallett","social workers","their work","risky behaviours","the resources"]
+Selected details: [{"target":"foster parents","role":"object","event":"interviewed","confidence":"medium","embedded_entities":[]},{"target":"Dr Hallett","role":"subject","event":"said","confidence":"high","embedded_entities":["Hallett"]},{"target":"social workers","role":"subject","event":"felt","confidence":"medium","embedded_entities":[]},{"target":"their work","role":"subject","event":"revolved","confidence":"medium","embedded_entities":[]},{"target":"risky behaviours","role":"object","event":"managing","confidence":"medium","embedded_entities":[]},{"target":"the resources","role":"object","event":"have","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Hallett"]
+Unresolved mentions: ["who","those","their"]
+
+[139]
+Gold target: this view
+Sentence: Joe Biden probably would offer Democrats the best chance to win, in this view.
+Selected targets: ["Democrats","Joe Biden"]
+Selected details: [{"target":"Democrats","role":"object","event":"offer","confidence":"medium","embedded_entities":[]},{"target":"Joe Biden","role":"subject","event":"offer","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Joe Biden","Democrats"]
+Unresolved mentions: []
+
+[140]
+Gold target: his community
+Sentence: Phillipe wants to work alongside his community to show how we can build democracy from the grassroots up.
+Selected targets: ["Phillipe","democracy"]
+Selected details: [{"target":"Phillipe","role":"subject","event":"wants","confidence":"medium","embedded_entities":[]},{"target":"democracy","role":"object","event":"build","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Phillipe"]
+Unresolved mentions: []
+
+[141]
+Gold target: the well-documented failings of the probation service
+Sentence: Gauke is also ultimately responsible for the well-documented failings of the probation service to alert Worboys’ victims to his release.
+Selected targets: ["Worboys","Gauke","Worboys’ victims"]
+Selected details: [{"target":"Worboys","role":"object","event":"is","confidence":"medium","embedded_entities":[]},{"target":"Gauke","role":"subject","event":"is","confidence":"high","embedded_entities":[]},{"target":"Worboys’ victims","role":"object","event":"alert","confidence":"medium","embedded_entities":["Worboys"]}]
+Resolved entities: ["Gauke","Worboys"]
+Unresolved mentions: []
+
+[142]
+Gold target: Teachin'
+Sentence: Teachin' him how to play golf.
+Selected targets: ["golf"]
+Selected details: [{"target":"golf","role":"object","event":"play","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["him"]
+
+[143]
+Gold target: My husband and I
+Sentence: Dear Carrie,
+My husband and I are in our mid 30s and fairly well established in our careers.
+Selected targets: ["Carrie"]
+Selected details: [{"target":"Carrie","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["Carrie"]
+Unresolved mentions: []
+
+[144]
+Gold target: me
+Sentence: “I was literally patted on the back and called ‘girlie’, which was like a red rag to bull for me,” she says.
+Selected targets: ["‘girlie’"]
+Selected details: [{"target":"‘girlie’","role":"object","event":"called","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["I","she"]
+
+[145]
+Gold target: the DEs –
+Sentence: For Jeremy Corbyn appears in this election campaign to have achieved something even Ed Miliband was unable to do: lose the majority support not only of Britain’s skilled workers, dubbed social class C2 by the pollsters, but also the DEs – the semi-skilled, unskilled and unemployed.
+Selected targets: ["Jeremy Corbyn","something :","Britain","social class C2"]
+Selected details: [{"target":"Jeremy Corbyn","role":"subject","event":"appears","confidence":"medium","embedded_entities":[]},{"target":"something :","role":"object","event":"achieved","confidence":"medium","embedded_entities":[]},{"target":"Britain","role":"object","event":"lose","confidence":"medium","embedded_entities":[]},{"target":"social class C2","role":"object","event":"dubbed","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Jeremy Corbyn","Ed Miliband","Britain"]
+Unresolved mentions: []
+
+[146]
+Gold target: He
+Sentence: He was delighted that this series is shown at an Islamic centre: it’s a powerful symbolic context.
+Selected targets: ["an Islamic centre","this series","a powerful symbolic context"]
+Selected details: [{"target":"an Islamic centre","role":"object","event":"shown","confidence":"medium","embedded_entities":["Islamic"]},{"target":"this series","role":"subject","event":"shown","confidence":"medium","embedded_entities":[]},{"target":"a powerful symbolic context","role":"object","event":"’s","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Islamic"]
+Unresolved mentions: ["this"]
+
+[147]
+Gold target: his
+Sentence: Woodford, who was widely referred to in the media as an investment “hero” and fund management “star”, had done exceedingly well over his quarter century there.
+Selected targets: ["Woodford"]
+Selected details: [{"target":"Woodford","role":"subject","event":"done","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Woodford"]
+Unresolved mentions: []
+
+[148]
+Gold target: December
+Sentence: Pell, 77, was convicted in December on four charges of an indecent act on a child under the age of 16, and one charge of sexual penetration of a child under 16.
+Selected targets: ["Pell","77"]
+Selected details: [{"target":"Pell","role":"subject","event":"convicted","confidence":"medium","embedded_entities":[]},{"target":"77","role":"subject","event":"convicted","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Pell"]
+Unresolved mentions: []
+
+[149]
+Gold target: She
+Sentence: “She is rightly focused on the people that actually get her elected and those are the ones, Republicans and Democrats and independents, that want a U.S. senator that actually thinks about policy, not just about politics.”
+Selected targets: ["Republicans","Democrats","a U.S. senator"]
+Selected details: [{"target":"Republicans","role":"object","event":"are","confidence":"medium","embedded_entities":[]},{"target":"Democrats","role":"object","event":"are","confidence":"medium","embedded_entities":[]},{"target":"a U.S. senator","role":"object","event":"want","confidence":"medium","embedded_entities":["U.S."]}]
+Resolved entities: ["Republicans","Democrats","U.S."]
+Unresolved mentions: ["that","her","those"]
+
+[150]
+Gold target: Sunday
+Sentence: Manigault Newman claimed on Sunday that she had heard a recording of Trump using the N-word and other racial epithets during taping of his reality TV show The Apprentice.
+Selected targets: ["Manigault Newman","Trump","the N-word"]
+Selected details: [{"target":"Manigault Newman","role":"subject","event":"claimed","confidence":"medium","embedded_entities":[]},{"target":"Trump","role":"object","event":"heard","confidence":"medium","embedded_entities":[]},{"target":"the N-word","role":"object","event":"using","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Manigault Newman","Trump","The Apprentice"]
+Unresolved mentions: []
+
+[151]
+Gold target: her
+Sentence: Photograph: Axel Schmidt/AFP/Getty Images
+It was because of her inspiring story that Mardini was approached by Emergency Response Centre International, ERCI, on Lesbos.
+Selected targets: ["ERCI","Mardini"]
+Selected details: [{"target":"ERCI","role":"object","event":"approached","confidence":"medium","embedded_entities":[]},{"target":"Mardini","role":"subject","event":"approached","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Axel Schmidt","AFP","Getty Images","Mardini","Emergency Response Centre International","ERCI","Lesbos"]
+Unresolved mentions: []
+
+[152]
+Gold target: Thursday
+Sentence: President Donald Trump also weighed in with a tweet backing Scott on Thursday night, saying there was “another big corruption scandal” in Broward County.
+Selected targets: ["a tweet","President Donald Trump","Scott","“another big corruption scandal” in Broward County"]
+Selected details: [{"target":"a tweet","role":"object","event":"weighed","confidence":"medium","embedded_entities":[]},{"target":"President Donald Trump","role":"subject","event":"weighed","confidence":"medium","embedded_entities":["Donald Trump"]},{"target":"Scott","role":"object","event":"backing","confidence":"medium","embedded_entities":[]},{"target":"“another big corruption scandal” in Broward County","role":"object","event":"was","confidence":"medium","embedded_entities":["Broward County"]}]
+Resolved entities: ["Donald Trump","Scott","Broward County"]
+Unresolved mentions: []
+
+[153]
+Gold target: ’m
+Sentence: Sorry, I’m not a sucker.”
+Selected targets: ["a sucker"]
+Selected details: [{"target":"a sucker","role":"object","event":"’m","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[154]
+Gold target: her
+Sentence: “I think it takes both,” said Ms. Feinstein, who has been a staunch moderate since her days as mayor of San Francisco.
+Selected targets: ["both","Ms. Feinstein"]
+Selected details: [{"target":"both","role":"object","event":"takes","confidence":"medium","embedded_entities":[]},{"target":"Ms. Feinstein","role":"subject","event":"said","confidence":"high","embedded_entities":["Feinstein"]}]
+Resolved entities: ["Feinstein","San Francisco"]
+Unresolved mentions: ["I","it"]
+
+[155]
+Gold target: this year
+Sentence: Iran’s foreign minister, Mohammad Javad Zarif, offered this year to discuss prisoner releases with the United States — a move interpreted as a signal that the Iranians wanted to pursue diplomacy — but American officials did not take him up on the offer.
+Selected targets: ["a move","Mohammad Javad Zarif","the United States","a signal","the Iranians","diplomacy","American officials"]
+Selected details: [{"target":"a move","role":"object","event":"offered","confidence":"medium","embedded_entities":[]},{"target":"Mohammad Javad Zarif","role":"subject","event":"offered","confidence":"medium","embedded_entities":[]},{"target":"the United States","role":"object","event":"discuss","confidence":"medium","embedded_entities":[]},{"target":"a signal","role":"object","event":"interpreted","confidence":"medium","embedded_entities":[]},{"target":"the Iranians","role":"subject","event":"wanted","confidence":"medium","embedded_entities":["Iran","Iranians"]},{"target":"diplomacy","role":"object","event":"pursue","confidence":"medium","embedded_entities":[]},{"target":"American officials","role":"subject","event":"take","confidence":"medium","embedded_entities":["American"]}]
+Resolved entities: ["Iran","Mohammad Javad Zarif","the United States","Iranians","American"]
+Unresolved mentions: []
+
+[156]
+Gold target: she
+Sentence: At least she’ll be in good company?
+Selected targets: ["good company"]
+Selected details: [{"target":"good company","role":"noun_phrase","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[157]
+Gold target: his
+Sentence: In his first year, Trump has delivered fiery speeches to campaign rallies around the country.
+Selected targets: ["fiery speeches","Trump"]
+Selected details: [{"target":"fiery speeches","role":"object","event":"delivered","confidence":"medium","embedded_entities":[]},{"target":"Trump","role":"subject","event":"delivered","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Trump"]
+Unresolved mentions: []
+
+[158]
+Gold target: her recovery
+Sentence: The Russian Embassy in London tweeted: "We congratulate Yulia Skripal on her recovery.
+Selected targets: ["The Russian Embassy in London","Yulia Skripal"]
+Selected details: [{"target":"The Russian Embassy in London","role":"subject","event":"tweeted","confidence":"medium","embedded_entities":["The Russian Embassy","London"]},{"target":"Yulia Skripal","role":"object","event":"congratulate","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["The Russian Embassy","London","Yulia Skripal"]
+Unresolved mentions: ["We"]
+
+[159]
+Gold target: his
+Sentence: Throughout his tenure, Trump has tried to repeal the ACA.
+Selected targets: ["Trump","the ACA"]
+Selected details: [{"target":"Trump","role":"subject","event":"tried","confidence":"medium","embedded_entities":[]},{"target":"the ACA","role":"object","event":"repeal","confidence":"medium","embedded_entities":["ACA"]}]
+Resolved entities: ["Trump","ACA"]
+Unresolved mentions: []
+
+[160]
+Gold target: her
+Sentence: Something shifted inside her.
+Selected targets: ["Something"]
+Selected details: [{"target":"Something","role":"subject","event":"shifted","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[161]
+Gold target: last week
+Sentence: USA TODAY
+A Connecticut man who received a phone call from President Donald Trump last week died on Wednesday, eight days after the president had fulfilled the man's bucket list wish.
+Selected targets: ["a phone call from President Donald Trump","A Connecticut man","the man's bucket list wish","the president"]
+Selected details: [{"target":"a phone call from President Donald Trump","role":"object","event":"received","confidence":"medium","embedded_entities":["Donald Trump"]},{"target":"A Connecticut man","role":"subject","event":"died","confidence":"medium","embedded_entities":["Connecticut"]},{"target":"the man's bucket list wish","role":"object","event":"fulfilled","confidence":"medium","embedded_entities":[]},{"target":"the president","role":"subject","event":"fulfilled","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["USA TODAY","Connecticut","Donald Trump"]
+Unresolved mentions: ["who"]
+
+[162]
+Gold target: Tuesday
+Sentence: "As I have said before, I did not come to Washington to hurt people," Capito said Tuesday in a statement.
+Selected targets: ["Washington","Capito"]
+Selected details: [{"target":"Washington","role":"object","event":"come","confidence":"medium","embedded_entities":[]},{"target":"Capito","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Washington","Capito"]
+Unresolved mentions: ["I"]
+
+[163]
+Gold target: Monday
+Sentence: I’m just so happy that I and my family have finally had justice in this case," Godfrey said Monday.
+Selected targets: ["just so happy","justice in this case","my family","Godfrey"]
+Selected details: [{"target":"just so happy","role":"object","event":"’m","confidence":"medium","embedded_entities":[]},{"target":"justice in this case","role":"object","event":"had","confidence":"medium","embedded_entities":[]},{"target":"my family","role":"subject","event":"had","confidence":"medium","embedded_entities":[]},{"target":"Godfrey","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Godfrey"]
+Unresolved mentions: ["I","my","this"]
+
+[164]
+Gold target: his
+Sentence: If confirmed by the Senate, Azar would replace Tom Price, who resigned in September amid a scandal over his use of charter aircraft for personal and official travel.
+Selected targets: ["the Senate","Tom Price","Azar"]
+Selected details: [{"target":"the Senate","role":"object","event":"confirmed","confidence":"medium","embedded_entities":["Senate"]},{"target":"Tom Price","role":"object","event":"replace","confidence":"medium","embedded_entities":[]},{"target":"Azar","role":"subject","event":"replace","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Senate","Azar","Tom Price"]
+Unresolved mentions: []
+
+[165]
+Gold target: he
+Sentence: That's just who he is."
+Selected targets: ["just who"]
+Selected details: [{"target":"just who","role":"noun_phrase","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["who"]
+
+[166]
+Gold target: me
+Sentence: So it showed to me the intense enmity that Sherrod Brown and many Democrats have toward the Trump administration—a really irrational enmity that makes no sense.
+Selected targets: ["the intense enmity toward the Trump administration—a really irrational enmity that makes no sense","Sherrod Brown","no sense"]
+Selected details: [{"target":"the intense enmity toward the Trump administration—a really irrational enmity that makes no sense","role":"object","event":"showed","confidence":"medium","embedded_entities":["Trump"]},{"target":"Sherrod Brown","role":"subject","event":"have","confidence":"medium","embedded_entities":[]},{"target":"no sense","role":"object","event":"makes","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Sherrod Brown","Democrats","Trump"]
+Unresolved mentions: ["it","that"]
+
+[167]
+Gold target: his job
+Sentence: Bill O’Reilly has been fired from his job and is being railroaded for much less than what Bill Clinton has ever done!
+Selected targets: ["Bill O’Reilly","much less than what Bill Clinton has ever done","Bill Clinton"]
+Selected details: [{"target":"Bill O’Reilly","role":"subject","event":"fired","confidence":"medium","embedded_entities":[]},{"target":"much less than what Bill Clinton has ever done","role":"object","event":"railroaded","confidence":"medium","embedded_entities":["Bill Clinton"]},{"target":"Bill Clinton","role":"subject","event":"done","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Bill O’Reilly","Bill Clinton"]
+Unresolved mentions: []
+
+[168]
+Gold target: her
+Sentence: Last month, the villagers demanded compensation and said Mugabe should come and apologize to them for her “cruelty.”
+Selected targets: ["compensation","the villagers","Mugabe"]
+Selected details: [{"target":"compensation","role":"object","event":"demanded","confidence":"medium","embedded_entities":[]},{"target":"the villagers","role":"subject","event":"demanded","confidence":"medium","embedded_entities":[]},{"target":"Mugabe","role":"subject","event":"come","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Mugabe"]
+Unresolved mentions: []
+
+[169]
+Gold target: ’m
+Sentence: “I’m also here because I care about the future of this planet; because I believe scientists more than I do willfully ignorant fossil fuel executives who care more about their stocks options than their own grandchildren,” Kimmel said.
+Selected targets: ["scientists","willfully ignorant fossil fuel executives","Kimmel"]
+Selected details: [{"target":"scientists","role":"object","event":"believe","confidence":"medium","embedded_entities":[]},{"target":"willfully ignorant fossil fuel executives","role":"object","event":"do","confidence":"medium","embedded_entities":[]},{"target":"Kimmel","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Kimmel"]
+Unresolved mentions: ["I","who"]
+
+[170]
+Gold target: Medieval Values, Shariah Law
+Sentence: Even CONSIDERING this nomination will cement the first American dictatorship #KavaNO — Joss Whedon (@joss) July 10, 2018
+Actor Ron Perlman presumed that a Justice Kavanaugh would bring America “back to Medieval Values, Shariah Law even, where old, bitter men get to tell women what is best for their bodies, lives, and well being is as done a deal as this is Twitter.
+Selected targets: ["this nomination","the first American dictatorship","Even CONSIDERING this nomination","Actor Ron Perlman","America","a Justice Kavanaugh","old bitter men","women"]
+Selected details: [{"target":"this nomination","role":"object","event":"CONSIDERING","confidence":"medium","embedded_entities":[]},{"target":"the first American dictatorship","role":"object","event":"cement","confidence":"medium","embedded_entities":["American","America"]},{"target":"Even CONSIDERING this nomination","role":"subject","event":"cement","confidence":"medium","embedded_entities":[]},{"target":"Actor Ron Perlman","role":"subject","event":"presumed","confidence":"medium","embedded_entities":["Ron Perlman"]},{"target":"America","role":"object","event":"bring","confidence":"medium","embedded_entities":[]},{"target":"a Justice Kavanaugh","role":"subject","event":"bring","confidence":"medium","embedded_entities":["Kavanaugh"]},{"target":"old bitter men","role":"subject","event":"get","confidence":"medium","embedded_entities":[]},{"target":"women","role":"object","event":"tell","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["American","KavaNO","Joss Whedon","@joss","Ron Perlman","Kavanaugh","America","Twitter"]
+Unresolved mentions: ["this"]
+
+[171]
+Gold target: Saturday
+Sentence: Meghan McCain, while giving a eulogy at her father's funeral on Saturday, took the opportunity to take pot-shots at President Trump.
+Selected targets: ["a eulogy","the opportunity","Meghan McCain","pot-shots at President Trump"]
+Selected details: [{"target":"a eulogy","role":"object","event":"giving","confidence":"medium","embedded_entities":[]},{"target":"the opportunity","role":"object","event":"took","confidence":"medium","embedded_entities":[]},{"target":"Meghan McCain","role":"subject","event":"took","confidence":"medium","embedded_entities":[]},{"target":"pot-shots at President Trump","role":"object","event":"take","confidence":"medium","embedded_entities":["Trump"]}]
+Resolved entities: ["Meghan McCain","Trump"]
+Unresolved mentions: []
+
+[172]
+Gold target: Friday
+Sentence: The pope said Friday that the Church does not want “ecclesiastical feminism” since every form of feminism is just “machismo in a skirt.”
+Selected targets: ["The pope","ecclesiastical feminism","the Church"]
+Selected details: [{"target":"The pope","role":"subject","event":"said","confidence":"high","embedded_entities":[]},{"target":"ecclesiastical feminism","role":"object","event":"want","confidence":"medium","embedded_entities":[]},{"target":"the Church","role":"subject","event":"want","confidence":"medium","embedded_entities":["Church"]}]
+Resolved entities: ["Church"]
+Unresolved mentions: []
+
+[173]
+Gold target: the driver’s seat
+Sentence: Forty-three-year-old Javier Hernandez Morales was sitting in the driver’s seat when Jarecki approached and asked if she could check the vehicle.
+Selected targets: ["Forty-three-year-old Javier Hernandez Morales","Jarecki","the vehicle"]
+Selected details: [{"target":"Forty-three-year-old Javier Hernandez Morales","role":"subject","event":"sitting","confidence":"medium","embedded_entities":["Javier Hernandez Morales"]},{"target":"Jarecki","role":"subject","event":"approached","confidence":"medium","embedded_entities":[]},{"target":"the vehicle","role":"object","event":"check","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Javier Hernandez Morales","Jarecki"]
+Unresolved mentions: []
+
+[174]
+Gold target: Thursday
+Sentence: A U.S. federal prison is expected to release John Walker Lindh, an allegedly unrepentant jihadi known as the “American Taliban,” on Thursday, years before the end of his 20-year sentence reportedly due to good conduct and time served before his trial.
+Selected targets: ["A U.S. federal prison","John Walker Lindh an allegedly unrepentant jihadi known as the “American Taliban","the “American Taliban"]
+Selected details: [{"target":"A U.S. federal prison","role":"subject","event":"expected","confidence":"medium","embedded_entities":["U.S."]},{"target":"John Walker Lindh an allegedly unrepentant jihadi known as the “American Taliban","role":"object","event":"release","confidence":"medium","embedded_entities":["John Walker Lindh","the “American Taliban"]},{"target":"the “American Taliban","role":"object","event":"known","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["U.S.","John Walker Lindh","the “American Taliban"]
+Unresolved mentions: []
+
+[175]
+Gold target: This #WorldRefugeeDay
+Sentence: This #WorldRefugeeDay, be like Superman and stand up for what’s right.
+Selected targets: ["right"]
+Selected details: [{"target":"right","role":"object","event":"’s","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Superman"]
+Unresolved mentions: ["what"]
+
+[176]
+Gold target: Wednesday
+Sentence: The U.S. House of Representatives on Wednesday gave victims of illegal alien crimes a bipartisan standing ovation on the floor of the chamber as House Minority Leader Kevin McCarthy read out the names of Americans killed by illegal aliens in a lengthy speech.
+Selected targets: ["victims of illegal alien crimes","The U.S. House of Representatives","the names of Americans killed by illegal aliens","House Minority Leader Kevin McCarthy","illegal aliens"]
+Selected details: [{"target":"victims of illegal alien crimes","role":"object","event":"gave","confidence":"medium","embedded_entities":[]},{"target":"The U.S. House of Representatives","role":"subject","event":"gave","confidence":"medium","embedded_entities":["House"]},{"target":"the names of Americans killed by illegal aliens","role":"object","event":"read","confidence":"medium","embedded_entities":["Americans"]},{"target":"House Minority Leader Kevin McCarthy","role":"subject","event":"read","confidence":"medium","embedded_entities":["House","Kevin McCarthy"]},{"target":"illegal aliens","role":"object","event":"killed","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["The U.S. House of Representatives","House","Kevin McCarthy","Americans"]
+Unresolved mentions: []
+
+[177]
+Gold target: the wall
+Sentence: The astonishing number of contributions that this project has received from ordinary Americans demonstrates just how important the wall is to the American people.
+Selected targets: ["ordinary Americans","this project","The astonishing number of contributions"]
+Selected details: [{"target":"ordinary Americans","role":"object","event":"received","confidence":"medium","embedded_entities":["Americans","American"]},{"target":"this project","role":"subject","event":"received","confidence":"medium","embedded_entities":[]},{"target":"The astonishing number of contributions","role":"subject","event":"demonstrates","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Americans","American"]
+Unresolved mentions: ["that","this"]
+
+[178]
+Gold target: him
+Sentence: Shocking statements flow like wine from him.
+Selected targets: ["Shocking statements"]
+Selected details: [{"target":"Shocking statements","role":"subject","event":"flow","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[179]
+Gold target: Saturday
+Sentence: As of Saturday morning, the Transformers star and left-wing activist remained in custody, having been booked for alleged public drunkenness, disorderly conduct, and obstruction.
+advertisement
+It is not the first time an intoxicated LaBeouf has run into trouble with the law.
+Selected targets: ["the Transformers star","the first time","an intoxicated LaBeouf"]
+Selected details: [{"target":"the Transformers star","role":"subject","event":"remained","confidence":"medium","embedded_entities":["Transformers"]},{"target":"the first time","role":"object","event":"is","confidence":"medium","embedded_entities":[]},{"target":"an intoxicated LaBeouf","role":"subject","event":"run","confidence":"medium","embedded_entities":["LaBeouf"]}]
+Resolved entities: ["Transformers","LaBeouf"]
+Unresolved mentions: ["It"]
+
+[180]
+Gold target: her
+Sentence: “But probably due to the skill and intelligence of the very first female campaign manager of a successful winning president of the United States election, so congratulations to her”.
+Selected targets: ["United States"]
+Selected details: [{"target":"United States","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["United States"]
+Unresolved mentions: []
+
+[181]
+Gold target: Graham
+Sentence: Ducey joins an increasingly long list of governors that support the new block grant repeal legislation, otherwise known as Graham-Cassidy-Heller-Johnson (GCHJ).
+Selected targets: ["Ducey","the new block grant repeal legislation"]
+Selected details: [{"target":"Ducey","role":"subject","event":"joins","confidence":"medium","embedded_entities":[]},{"target":"the new block grant repeal legislation","role":"object","event":"support","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Ducey"]
+Unresolved mentions: []
+
+[182]
+Gold target: his
+Sentence: The farewell ceremony was also attended by Glakas, who has since added the painting to his gallery of work on his website.
+Selected targets: ["Glakas","The farewell ceremony","the painting"]
+Selected details: [{"target":"Glakas","role":"object","event":"attended","confidence":"medium","embedded_entities":[]},{"target":"The farewell ceremony","role":"subject","event":"attended","confidence":"medium","embedded_entities":[]},{"target":"the painting","role":"object","event":"added","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Glakas"]
+Unresolved mentions: ["who"]
+
+[183]
+Gold target: He
+Sentence: He's an angel," said friend Jennifer Navarro, 23.
+Selected targets: ["23"]
+Selected details: [{"target":"23","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Jennifer Navarro"]
+Unresolved mentions: []
+
+[184]
+Gold target: Sunday
+Sentence: Yiannopoulos said he was blindsided by the news, but insisted on holding a rally with fellow right-wing commentators Sunday on campus.
+Selected targets: ["Yiannopoulos","the news","a rally with fellow right-wing commentators"]
+Selected details: [{"target":"Yiannopoulos","role":"subject","event":"said","confidence":"high","embedded_entities":[]},{"target":"the news","role":"object","event":"blindsided","confidence":"medium","embedded_entities":[]},{"target":"a rally with fellow right-wing commentators","role":"object","event":"holding","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Yiannopoulos"]
+Unresolved mentions: []
+
+[185]
+Gold target: the moon
+Sentence: The Trump administration is committed to sending astronauts to the moon as part of a broader push to prioritize human spaceflight and firm up U.S. dominance in the final frontier, Vice President Mike Pence said.
+Selected targets: ["astronauts","human spaceflight","U.S. dominance in the final frontier","Vice President Mike Pence"]
+Selected details: [{"target":"astronauts","role":"object","event":"sending","confidence":"medium","embedded_entities":[]},{"target":"human spaceflight","role":"object","event":"prioritize","confidence":"medium","embedded_entities":[]},{"target":"U.S. dominance in the final frontier","role":"object","event":"firm","confidence":"medium","embedded_entities":["U.S."]},{"target":"Vice President Mike Pence","role":"subject","event":"said","confidence":"high","embedded_entities":["Mike Pence"]}]
+Resolved entities: ["The Trump","U.S.","Mike Pence"]
+Unresolved mentions: []
+
+[186]
+Gold target: this week
+Sentence: Jeffery Dale Hunt, 50, of Cherokee was arrested this week while free on bond from a previous arrest on child pornography charges, said Sgt.
+Selected targets: ["50","Sgt"]
+Selected details: [{"target":"50","role":"subject","event":"arrested","confidence":"medium","embedded_entities":[]},{"target":"Sgt","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Jeffery Dale Hunt","Cherokee"]
+Unresolved mentions: []
+
+[187]
+Gold target: Sunday
+Sentence: President Trump on Sunday lashed out again at The Washington Post, tweeting the newspaper’s recent story arguing that White House Chief of Staff John Kelly is losing his credibility and clout “garbage” and “another hit job.”
+Selected targets: ["The Washington Post","President Trump","the newspaper’s recent story","his credibility and clout “garbage”","White House Chief of Staff John Kelly"]
+Selected details: [{"target":"The Washington Post","role":"object","event":"lashed","confidence":"medium","embedded_entities":[]},{"target":"President Trump","role":"subject","event":"lashed","confidence":"medium","embedded_entities":["Trump"]},{"target":"the newspaper’s recent story","role":"object","event":"tweeting","confidence":"medium","embedded_entities":[]},{"target":"his credibility and clout “garbage”","role":"object","event":"losing","confidence":"medium","embedded_entities":[]},{"target":"White House Chief of Staff John Kelly","role":"subject","event":"losing","confidence":"medium","embedded_entities":["White House","John Kelly"]}]
+Resolved entities: ["Trump","The Washington Post","White House","John Kelly"]
+Unresolved mentions: []
+
+[188]
+Gold target: his
+Sentence: Cheers ring out in a national stadium at his inauguration as the country moves on from the decades-long rule of Robert Mugabe.
+Selected targets: ["Cheers","the decades-long rule of Robert Mugabe"]
+Selected details: [{"target":"Cheers","role":"subject","event":"ring","confidence":"medium","embedded_entities":[]},{"target":"the decades-long rule of Robert Mugabe","role":"object","event":"moves","confidence":"medium","embedded_entities":["Robert Mugabe"]}]
+Resolved entities: ["Robert Mugabe"]
+Unresolved mentions: ["the country"]
+
+[189]
+Gold target: He
+Sentence: He previously was in prison for a 2004 burglary in Tarrant County and was released after about a year.
+Selected targets: ["Tarrant County"]
+Selected details: [{"target":"Tarrant County","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["Tarrant County"]
+Unresolved mentions: []
+
+[190]
+Gold target: a bus
+Sentence: Caballero is believed to have boarded a bus on Sunday in White River Junction.
+Selected targets: ["Caballero","White River Junction"]
+Selected details: [{"target":"Caballero","role":"subject","event":"believed","confidence":"medium","embedded_entities":[]},{"target":"White River Junction","role":"object","event":"boarded","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Caballero","White River Junction"]
+Unresolved mentions: []
+
+[191]
+Gold target: LOSER &
+Sentence: I barely know him but just take a look, a stone cold LOSER & husband from hell!”
+Selected targets: ["a look"]
+Selected details: [{"target":"a look","role":"object","event":"take","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["I","him"]
+
+[192]
+Gold target: her
+Sentence: Batrice described Gabbard as a close friend, Politico reported, and said "it’s been an honor to work with her over the last few years.
+Selected targets: ["Gabbard","Batrice","Politico"]
+Selected details: [{"target":"Gabbard","role":"object","event":"described","confidence":"medium","embedded_entities":[]},{"target":"Batrice","role":"subject","event":"described","confidence":"medium","embedded_entities":[]},{"target":"Politico","role":"subject","event":"reported","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Batrice","Gabbard","Politico"]
+Unresolved mentions: []
+
+[193]
+Gold target: He
+Sentence: "He was such a loving boy," his aunt, his aunt, Elvira Rodriguez, said.
+Selected targets: ["his aunt his aunt, Elvira Rodriguez"]
+Selected details: [{"target":"his aunt his aunt, Elvira Rodriguez","role":"subject","event":"said","confidence":"high","embedded_entities":["Elvira Rodriguez"]}]
+Resolved entities: ["Elvira Rodriguez"]
+Unresolved mentions: ["his"]
+
+[194]
+Gold target: Veterans
+Sentence: Vice President Mike Pence: Veterans Day - Veterans have no better friend than President Trump
+Selected targets: ["Mike Pence"]
+Selected details: [{"target":"Mike Pence","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["Mike Pence","Trump"]
+Unresolved mentions: []
+
+[195]
+Gold target: her
+Sentence: Dawnta Harris, then 16, is accused of fatally running over her in a stolen Jeep.
+Selected targets: ["Dawnta Harris","a stolen Jeep"]
+Selected details: [{"target":"Dawnta Harris","role":"subject","event":"accused","confidence":"medium","embedded_entities":[]},{"target":"a stolen Jeep","role":"object","event":"running","confidence":"medium","embedded_entities":["Jeep"]}]
+Resolved entities: ["Dawnta Harris","Jeep"]
+Unresolved mentions: []
+
+[196]
+Gold target: he
+Sentence: "Anthony Scaramucci, who was quickly terminated (11 days) from a position that he was totally incapable of handling, now seems to do nothing but television as the all-time expert on 'President Trump.'
+Selected targets: ["Anthony Scaramucci","nothing but television"]
+Selected details: [{"target":"Anthony Scaramucci","role":"subject","event":"seems","confidence":"medium","embedded_entities":[]},{"target":"nothing but television","role":"object","event":"do","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Anthony Scaramucci","Trump"]
+Unresolved mentions: []
+
+[197]
+Gold target: DEMOCRATIC PARTY
+Sentence: FIVE REASONS KAMALA HARRIS IS THE BRAND-NEW 2020 DEMOCRATIC PARTY FRONTRUNNER
+In true progressive fashion, Harris can rattle off talking points about politicians beholden to corporations, but her record reveals a special interest of her own: labor unions.
+Selected targets: ["talking points about politicians beholden to corporations","Harris","a special interest of her own: labor unions","her record"]
+Selected details: [{"target":"talking points about politicians beholden to corporations","role":"object","event":"rattle","confidence":"medium","embedded_entities":[]},{"target":"Harris","role":"subject","event":"rattle","confidence":"medium","embedded_entities":[]},{"target":"a special interest of her own: labor unions","role":"object","event":"reveals","confidence":"medium","embedded_entities":[]},{"target":"her record","role":"subject","event":"reveals","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["KAMALA HARRIS","Harris"]
+Unresolved mentions: []
+
+[198]
+Gold target: him
+Sentence: Bergdahl tearfully apologized this week to the service members who searched for him after he deserted.
+Selected targets: ["Bergdahl"]
+Selected details: [{"target":"Bergdahl","role":"subject","event":"apologized","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Bergdahl"]
+Unresolved mentions: []
+
+[199]
+Gold target: the President
+Sentence: Flake's prepared speech goes on to say the President's actions should be "a great source of shame" for the Senate and the members of the Republican Party.
+Selected targets: ["Flake's prepared speech"]
+Selected details: [{"target":"Flake's prepared speech","role":"subject","event":"goes","confidence":"medium","embedded_entities":["Flake"]}]
+Resolved entities: ["Flake","Senate","the Republican Party"]
+Unresolved mentions: []
+
+[200]
+Gold target: he
+Sentence: Inclined as he is to vent on Twitter and in calls to friendly TV hosts, Trump is certainly tempted to answer now and at length, even though it could imperil his future and that of the people around him.
+Selected targets: ["Trump","his future"]
+Selected details: [{"target":"Trump","role":"subject","event":"tempted","confidence":"medium","embedded_entities":[]},{"target":"his future","role":"object","event":"imperil","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Trump"]
+Unresolved mentions: ["it"]
+
+[201]
+Gold target: her
+Sentence: Never achieve anything in her life."
+Selected targets: ["anything"]
+Selected details: [{"target":"anything","role":"object","event":"achieve","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[202]
+Gold target: his family
+Sentence: "He was a devoted husband who talked often of his family.
+Selected targets: ["a devoted husband"]
+Selected details: [{"target":"a devoted husband","role":"object","event":"was","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["He","who"]
+
+[203]
+Gold target: her
+Sentence: The principal met with her and some of her classmates.
+Selected targets: ["The principal"]
+Selected details: [{"target":"The principal","role":"subject","event":"met","confidence":"high","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[204]
+Gold target: people
+Sentence: NPR's Rachel Martin speaks with educator and activist Brittany Packnett about how people can help fight racism and white supremacy in their daily lives.
+Selected targets: ["educator and activist Brittany Packnett","NPR's Rachel Martin","racism"]
+Selected details: [{"target":"educator and activist Brittany Packnett","role":"object","event":"speaks","confidence":"medium","embedded_entities":["Brittany Packnett"]},{"target":"NPR's Rachel Martin","role":"subject","event":"speaks","confidence":"high","embedded_entities":["NPR","Rachel Martin"]},{"target":"racism","role":"object","event":"fight","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["NPR","Rachel Martin","Brittany Packnett"]
+Unresolved mentions: []
+
+[205]
+Gold target: Congressman
+Sentence: GREENE: Republican Congressman Tom Reed of the state of New York - thanks so much for your time this morning, sir.
+Selected targets: ["GREENE"]
+Selected details: [{"target":"GREENE","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["GREENE","Republican","Tom Reed","New York"]
+Unresolved mentions: []
+
+[206]
+Gold target: his
+Sentence: "Through his honesty and integrity, Henry embodied the best of American business, entrepreneurship and philanthropy.
+Selected targets: ["the best of American business, entrepreneurship and philanthropy","Henry"]
+Selected details: [{"target":"the best of American business, entrepreneurship and philanthropy","role":"object","event":"embodied","confidence":"medium","embedded_entities":["American"]},{"target":"Henry","role":"subject","event":"embodied","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Henry","American"]
+Unresolved mentions: []
+
+[207]
+Gold target: Friday
+Sentence: Rendon’s critique came on the heels of a full-page ad in The Times on Friday, partly paid for by the Trades Council, that criticized “well-funded ivory tower elites” who push proposals that hurt the oil and gas industry.
+Selected targets: ["Times","Rendon’s critique","the Trades Council","“well-funded ivory tower elites”","proposals","the oil and gas industry"]
+Selected details: [{"target":"Times","role":"object","event":"came","confidence":"medium","embedded_entities":[]},{"target":"Rendon’s critique","role":"subject","event":"came","confidence":"medium","embedded_entities":["Rendon"]},{"target":"the Trades Council","role":"object","event":"paid","confidence":"medium","embedded_entities":[]},{"target":"“well-funded ivory tower elites”","role":"object","event":"criticized","confidence":"medium","embedded_entities":[]},{"target":"proposals","role":"object","event":"push","confidence":"medium","embedded_entities":[]},{"target":"the oil and gas industry","role":"object","event":"hurt","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Rendon","Times","the Trades Council"]
+Unresolved mentions: ["that","who"]
+
+[208]
+Gold target: his
+Sentence: Clark, 22, was shot in his grandmother’s backyard on March 18, 2018, when two officers said they believed Clark had a gun, but only a cell phone was found.
+Selected targets: ["March 18","2018","Clark","22","two officers","a gun","only a cell phone"]
+Selected details: [{"target":"March 18","role":"object","event":"shot","confidence":"medium","embedded_entities":[]},{"target":"2018","role":"object","event":"shot","confidence":"medium","embedded_entities":[]},{"target":"Clark","role":"subject","event":"shot","confidence":"medium","embedded_entities":[]},{"target":"22","role":"subject","event":"shot","confidence":"medium","embedded_entities":[]},{"target":"two officers","role":"subject","event":"said","confidence":"high","embedded_entities":[]},{"target":"a gun","role":"object","event":"had","confidence":"medium","embedded_entities":[]},{"target":"only a cell phone","role":"subject","event":"found","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Clark"]
+Unresolved mentions: []
+
+[209]
+Gold target: Twitter
+Sentence: By Janelle Griffith
+Comedian Michael Rapaport issued an apology to Pete Davidson after facing backlash for video and comments he posted on Twitter mocking both the "Saturday Night Live" cast member and Kanye West.
+Selected targets: ["an apology","Comedian Michael Rapaport","Saturday Night Live","Kanye West"]
+Selected details: [{"target":"an apology","role":"object","event":"issued","confidence":"medium","embedded_entities":[]},{"target":"Comedian Michael Rapaport","role":"subject","event":"issued","confidence":"medium","embedded_entities":["Michael Rapaport"]},{"target":"Saturday Night Live","role":"object","event":"facing","confidence":"medium","embedded_entities":[]},{"target":"Kanye West","role":"object","event":"mocking","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Janelle Griffith","Michael Rapaport","Pete Davidson","Saturday Night Live","Kanye West"]
+Unresolved mentions: ["he"]
+
+[210]
+Gold target: the indictment
+Sentence: After a WikiLeaks release on or about Oct. 7, 2016, an associate of a high-ranking Trump campaign official texted Stone "well done," according to the indictment.
+Selected targets: ["Stone","an associate of a high-ranking Trump campaign official"]
+Selected details: [{"target":"Stone","role":"object","event":"texted","confidence":"medium","embedded_entities":[]},{"target":"an associate of a high-ranking Trump campaign official","role":"subject","event":"texted","confidence":"medium","embedded_entities":["Trump"]}]
+Resolved entities: ["WikiLeaks","Trump","Stone"]
+Unresolved mentions: []
+
+[211]
+Gold target: states with high levels of household gun ownership
+Sentence: “Because states with high levels of household gun ownership are likely to experience higher youth suicide rates, these states should be especially concerned about implementing programs and policies to ameliorate this risk,” he said.
+Selected targets: ["higher youth suicide rates","programs","this risk"]
+Selected details: [{"target":"higher youth suicide rates","role":"object","event":"experience","confidence":"medium","embedded_entities":[]},{"target":"programs","role":"object","event":"implementing","confidence":"medium","embedded_entities":[]},{"target":"this risk","role":"object","event":"ameliorate","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["he","this"]
+
+[212]
+Gold target: the president
+Sentence: "We got to bring Democrats and Republicans together — despite the president — to go forward and protect the integrity of American democracy."
+Selected targets: ["Democrats","Republicans","the integrity of American democracy"]
+Selected details: [{"target":"Democrats","role":"object","event":"bring","confidence":"medium","embedded_entities":[]},{"target":"Republicans","role":"object","event":"bring","confidence":"medium","embedded_entities":[]},{"target":"the integrity of American democracy","role":"object","event":"protect","confidence":"medium","embedded_entities":["American"]}]
+Resolved entities: ["Democrats","Republicans","American"]
+Unresolved mentions: ["We"]
+
+[213]
+Gold target: he
+Sentence: "I know that he's a guy that fights for the underdog, always has," Meadows said.
+Selected targets: ["Meadows"]
+Selected details: [{"target":"Meadows","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Meadows"]
+Unresolved mentions: ["I","that"]
+
+[214]
+Gold target: next year
+Sentence: Mark Carney signaled Tuesday that he is willing to stay on as head of the U.K. central bank beyond his planned departure date next year, offering a measure of stability in British policy-making as the country charts its exit from the European Union.
+Selected targets: ["Mark Carney","head of the U.K. central bank","a measure of stability in British policy-making","its exit from the European Union"]
+Selected details: [{"target":"Mark Carney","role":"subject","event":"signaled","confidence":"medium","embedded_entities":[]},{"target":"head of the U.K. central bank","role":"object","event":"stay","confidence":"medium","embedded_entities":["U.K."]},{"target":"a measure of stability in British policy-making","role":"object","event":"offering","confidence":"medium","embedded_entities":["British"]},{"target":"its exit from the European Union","role":"object","event":"charts","confidence":"medium","embedded_entities":["the European Union"]}]
+Resolved entities: ["Mark Carney","U.K.","British","the European Union"]
+Unresolved mentions: []
+
+[215]
+Gold target: He
+Sentence: He will be in the company of some of America's most admired presidents — George Washington, Thomas Jefferson, Abraham Lincoln and Franklin D. Roosevelt.
+Selected targets: ["America"]
+Selected details: [{"target":"America","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["America","George Washington","Thomas Jefferson","Abraham Lincoln","Franklin D. Roosevelt"]
+Unresolved mentions: []
+
+[216]
+Gold target: the 1-percentage-point county sales tax approved during his term
+Sentence: In an interview with the Tribune, Stroger noted that Preckwinkle pledged during the 2010 Democratic primary campaign to eliminate what was left of the 1-percentage-point county sales tax approved during his term.
+Selected targets: ["an interview with the Tribune","Stroger","the 2010 Democratic primary campaign","Preckwinkle"]
+Selected details: [{"target":"an interview with the Tribune","role":"object","event":"noted","confidence":"medium","embedded_entities":["Tribune"]},{"target":"Stroger","role":"subject","event":"noted","confidence":"medium","embedded_entities":[]},{"target":"the 2010 Democratic primary campaign","role":"object","event":"pledged","confidence":"medium","embedded_entities":["Democratic"]},{"target":"Preckwinkle","role":"subject","event":"pledged","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Tribune","Stroger","Preckwinkle","Democratic"]
+Unresolved mentions: ["what"]
+
+[217]
+Gold target: Friday
+Sentence: “Prof. Wang is without question a highly intelligent, likable, and charismatic scientist,” trustees wrote in its report, released Friday.
+Selected targets: ["trustees"]
+Selected details: [{"target":"trustees","role":"subject","event":"wrote","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Wang"]
+Unresolved mentions: []
+
+[218]
+Gold target: my law practice
+Sentence: “I was able in my law practice to see people and hear their stories in some of the most difficult times of their lives,” he said.
+Selected targets: ["their stories"]
+Selected details: [{"target":"their stories","role":"object","event":"hear","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["he","their"]
+
+[219]
+Gold target: his
+Sentence: Weeks after Trump rescinded the Obama directive, the transgender community suffered another blow when the U.S. Supreme Court declined in early March to hear a case brought by a Virginia transgender high school student, Gavin Grimm, who was suing to use school restrooms that corresponded with his gender identity.
+Selected targets: ["the Obama directive","Trump","another blow","the transgender community","the U.S. Supreme Court","a case","Gavin Grimm","school restrooms"]
+Selected details: [{"target":"the Obama directive","role":"object","event":"rescinded","confidence":"medium","embedded_entities":["Obama"]},{"target":"Trump","role":"subject","event":"rescinded","confidence":"medium","embedded_entities":[]},{"target":"another blow","role":"object","event":"suffered","confidence":"medium","embedded_entities":[]},{"target":"the transgender community","role":"subject","event":"suffered","confidence":"medium","embedded_entities":[]},{"target":"the U.S. Supreme Court","role":"subject","event":"declined","confidence":"medium","embedded_entities":[]},{"target":"a case","role":"object","event":"hear","confidence":"medium","embedded_entities":[]},{"target":"Gavin Grimm","role":"object","event":"brought","confidence":"medium","embedded_entities":[]},{"target":"school restrooms","role":"object","event":"use","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Trump","Obama","the U.S. Supreme Court","Virginia","Gavin Grimm"]
+Unresolved mentions: ["who","that"]
+
+[220]
+Gold target: These
+Sentence: "These are young people who are dedicating their lives," Cuomo said.
+Selected targets: ["their lives","Cuomo"]
+Selected details: [{"target":"their lives","role":"object","event":"dedicating","confidence":"medium","embedded_entities":[]},{"target":"Cuomo","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Cuomo"]
+Unresolved mentions: ["who","their"]
+
+[221]
+Gold target: his
+Sentence: Navarro, a conservative Republican activist who lost to Waters by more than 50 percentage points in 2016 in the strongly Democratic district, slammed her in his remarks to the crowd.
+Selected targets: ["Waters","Navarro"]
+Selected details: [{"target":"Waters","role":"object","event":"lost","confidence":"medium","embedded_entities":[]},{"target":"Navarro","role":"subject","event":"slammed","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Navarro","Republican","Waters","Democratic"]
+Unresolved mentions: ["who","her"]
+
+[222]
+Gold target: the decision
+Sentence: Albea also rejected an offer from Lake County prosecutors in February 2015 of 25 years in prison in exchange for pleading guilty, according to the decision.
+Selected targets: ["an offer from Lake County prosecutors in February 2015 of 25 years in prison","Albea","guilty"]
+Selected details: [{"target":"an offer from Lake County prosecutors in February 2015 of 25 years in prison","role":"object","event":"rejected","confidence":"medium","embedded_entities":["Lake County"]},{"target":"Albea","role":"subject","event":"rejected","confidence":"medium","embedded_entities":[]},{"target":"guilty","role":"object","event":"pleading","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Albea","Lake County"]
+Unresolved mentions: []
+
+[223]
+Gold target: our elections
+Sentence: He has never condemned Putin or Russia for their interference in our elections.
+Selected targets: ["Putin","Russia"]
+Selected details: [{"target":"Putin","role":"object","event":"condemned","confidence":"medium","embedded_entities":[]},{"target":"Russia","role":"object","event":"condemned","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Putin","Russia"]
+Unresolved mentions: ["He"]
+
+[224]
+Gold target: Thursday
+Sentence: A defiant Hunter, who on Thursday pleaded not guilty to all charges and is also accusing the Justice Department of conducting a “witch hunt” against President Donald Trump supporters like himself, initially refused.
+Selected targets: ["not guilty to all charges","the Justice Department","a “witch hunt” against President Donald Trump supporters like himself","A defiant Hunter"]
+Selected details: [{"target":"not guilty to all charges","role":"object","event":"pleaded","confidence":"medium","embedded_entities":[]},{"target":"the Justice Department","role":"object","event":"accusing","confidence":"medium","embedded_entities":[]},{"target":"a “witch hunt” against President Donald Trump supporters like himself","role":"object","event":"conducting","confidence":"medium","embedded_entities":["Donald Trump"]},{"target":"A defiant Hunter","role":"subject","event":"refused","confidence":"medium","embedded_entities":["Hunter"]}]
+Resolved entities: ["Hunter","the Justice Department","Donald Trump"]
+Unresolved mentions: ["who"]
+
+[225]
+Gold target: Twitter
+Sentence: Meghan McCain, Liz Cheney spar over torture on Twitter
+Selected targets: ["Meghan McCain","Liz Cheney"]
+Selected details: [{"target":"Meghan McCain","role":"subject","event":"spar","confidence":"medium","embedded_entities":[]},{"target":"Liz Cheney","role":"subject","event":"spar","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Meghan McCain","Liz Cheney"]
+Unresolved mentions: []
+
+[226]
+Gold target: the election
+Sentence: Among those cited were big front-page features about Trump’s potential conflicts of interest and debts (“ How Donald Trump’s Web of LLCs Obscures His Business Interests ”; “ Trump’s Debts Are Widely Held on Wall Street, Creating New Potential Conflicts .”)
+“Since the election, we’ve spent a lot of time and energy doing investigative projects on Trump,” David Enrich, the Journal’s financial investigations editor, told POLITICO, “and those stories almost entirely have received prominent placement in print and online, and the reaction internally to them has been uniformly positive.
+Selected targets: ["His Business Interests","Donald Trump’s Web of LLCs","Trump’s Debts","New Potential Conflicts","a lot of time and energy","investigative projects on Trump","POLITICO","David Enrich the Journal’s financial investigations editor","prominent placement in print and online","those stories","uniformly positive","the reaction internally to them"]
+Selected details: [{"target":"His Business Interests","role":"object","event":"Obscures","confidence":"medium","embedded_entities":[]},{"target":"Donald Trump’s Web of LLCs","role":"subject","event":"Obscures","confidence":"medium","embedded_entities":["Trump","Donald Trump’s"]},{"target":"Trump’s Debts","role":"subject","event":"Held","confidence":"medium","embedded_entities":["Trump"]},{"target":"New Potential Conflicts","role":"object","event":"Creating","confidence":"medium","embedded_entities":[]},{"target":"a lot of time and energy","role":"object","event":"spent","confidence":"medium","embedded_entities":[]},{"target":"investigative projects on Trump","role":"object","event":"doing","confidence":"medium","embedded_entities":["Trump"]},{"target":"POLITICO","role":"object","event":"told","confidence":"medium","embedded_entities":[]},{"target":"David Enrich the Journal’s financial investigations editor","role":"subject","event":"told","confidence":"medium","embedded_entities":["David Enrich","Journal"]},{"target":"prominent placement in print and online","role":"object","event":"received","confidence":"medium","embedded_entities":[]},{"target":"those stories","role":"subject","event":"received","confidence":"medium","embedded_entities":[]},{"target":"uniformly positive","role":"object","event":"been","confidence":"medium","embedded_entities":[]},{"target":"the reaction internally to them","role":"subject","event":"been","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Trump","Donald Trump’s","David Enrich","Journal","POLITICO"]
+Unresolved mentions: ["those","we","His","them"]
+
+[227]
+Gold target: his
+Sentence: The South Carolina senator also through his support for a new system his ally Sen.
+Selected targets: ["South Carolina"]
+Selected details: [{"target":"South Carolina","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["South Carolina"]
+Unresolved mentions: []
+
+[228]
+Gold target: " Sen.
+Sentence: • "The president's refusal to acknowledge that Putin interfered in our elections should alarm us all," Sen.
+Selected targets: ["Putin","us all","The president's refusal"]
+Selected details: [{"target":"Putin","role":"subject","event":"interfered","confidence":"medium","embedded_entities":[]},{"target":"us all","role":"object","event":"alarm","confidence":"medium","embedded_entities":[]},{"target":"The president's refusal","role":"subject","event":"alarm","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Putin"]
+Unresolved mentions: ["us"]
+
+[229]
+Gold target: Wednesday
+Sentence: Rail
+MONEY TRAIN: The FRA is offering more than $244 million in grant funding for capital rail projects under its Consolidated Rail Infrastructure and Safety Improvements program, the agency announced Wednesday.
+Selected targets: ["more than $244 million in grant funding for capital rail projects","The FRA","the agency"]
+Selected details: [{"target":"more than $244 million in grant funding for capital rail projects","role":"object","event":"offering","confidence":"medium","embedded_entities":["more than $244 million"]},{"target":"The FRA","role":"subject","event":"offering","confidence":"medium","embedded_entities":["FRA"]},{"target":"the agency","role":"subject","event":"announced","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["FRA","more than $244 million","Consolidated Rail Infrastructure and Safety Improvements"]
+Unresolved mentions: ["its"]
+
+[230]
+Gold target: Facebook
+Sentence: In one recent video, Lara, a former producer for “Inside Edition,” explained, “If you are tired of all the fake news out there, remember, you can tune in right here on our Facebook page every week.
+Selected targets: ["Lara a former producer for “Inside Edition ”"]
+Selected details: [{"target":"Lara a former producer for “Inside Edition ”","role":"subject","event":"explained","confidence":"medium","embedded_entities":["Lara","Inside Edition"]}]
+Resolved entities: ["Lara","Inside Edition"]
+Unresolved mentions: ["you"]
+
+[231]
+Gold target: his
+Sentence: Franklin Roosevelt, who would send 15 major bills to Congress by the end of his Hundred Days, had legislators working on an emergency banking bill just days after taking office.
+Selected targets: ["15 major bills","Franklin Roosevelt","legislators","office"]
+Selected details: [{"target":"15 major bills","role":"object","event":"send","confidence":"medium","embedded_entities":[]},{"target":"Franklin Roosevelt","role":"subject","event":"had","confidence":"medium","embedded_entities":[]},{"target":"legislators","role":"subject","event":"working","confidence":"medium","embedded_entities":[]},{"target":"office","role":"object","event":"taking","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Franklin Roosevelt","Congress"]
+Unresolved mentions: []
+
+[232]
+Gold target: ’m
+Sentence: “Somebody targeted this home and you know who did that and that’s who I’m talking to and so I’m asking you very candidly, do what’s right, Wilburn added.
+Selected targets: ["this home","Somebody","right","Wilburn"]
+Selected details: [{"target":"this home","role":"object","event":"targeted","confidence":"medium","embedded_entities":[]},{"target":"Somebody","role":"subject","event":"targeted","confidence":"medium","embedded_entities":[]},{"target":"right","role":"object","event":"’s","confidence":"medium","embedded_entities":[]},{"target":"Wilburn","role":"subject","event":"added","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Wilburn"]
+Unresolved mentions: ["this","I","you","who","that","what"]
+
+[233]
+Gold target: The Queen
+Sentence: Image copyright Getty Images Image caption The Queen with President Dwight D Eisenhower at a White House state banquet, in 1957.
+Selected targets: ["Getty Images"]
+Selected details: [{"target":"Getty Images","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["Getty Images","Dwight D Eisenhower","White House"]
+Unresolved mentions: []
+
+[234]
+Gold target: Shine
+Sentence: Shine to join Trump in Helsinki for Putin meeting
+Selected targets: ["Trump","Helsinki"]
+Selected details: [{"target":"Trump","role":"object","event":"join","confidence":"medium","embedded_entities":[]},{"target":"Helsinki","role":"object","event":"join","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Trump","Helsinki","Putin"]
+Unresolved mentions: []
+
+[235]
+Gold target: his
+Sentence: At the interview in Cicero, New York, Cruz also pointed out an "encouraging" sign for his ability to bring together Republicans, leaders and rank-and-file voters alike.
+Selected targets: ["Cruz","Republicans"]
+Selected details: [{"target":"Cruz","role":"subject","event":"pointed","confidence":"medium","embedded_entities":[]},{"target":"Republicans","role":"object","event":"bring","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Cicero","New York","Cruz","Republicans"]
+Unresolved mentions: []
+
+[236]
+Gold target: his
+Sentence: Lopez, whose 55-year prison sentence was commuted by President Barack Obama, was free from house arrest in San Juan earlier this week and is expected to be on hand Thursday for a celebration in his honor in the Chicago neighborhood of Humboldt Park.
+Selected targets: ["President Barack Obama","whose 55-year prison sentence","free from house arrest in San Juan","Lopez"]
+Selected details: [{"target":"President Barack Obama","role":"object","event":"commuted","confidence":"medium","embedded_entities":["Barack Obama"]},{"target":"whose 55-year prison sentence","role":"subject","event":"commuted","confidence":"medium","embedded_entities":[]},{"target":"free from house arrest in San Juan","role":"object","event":"was","confidence":"medium","embedded_entities":["San Juan"]},{"target":"Lopez","role":"subject","event":"was","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Lopez","Barack Obama","San Juan","Chicago","Humboldt Park"]
+Unresolved mentions: []
+
+[237]
+Gold target: his
+Sentence: Voters saw it on the first day of his campaign, with an attack on Mexicans.
+Selected targets: ["an attack on Mexicans","Voters"]
+Selected details: [{"target":"an attack on Mexicans","role":"object","event":"saw","confidence":"medium","embedded_entities":["Mexicans"]},{"target":"Voters","role":"subject","event":"saw","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Mexicans"]
+Unresolved mentions: ["it"]
+
+[238]
+Gold target: the president
+Sentence: Mr. Spicer suggested the president would.
+Selected targets: ["Mr. Spicer"]
+Selected details: [{"target":"Mr. Spicer","role":"subject","event":"suggested","confidence":"medium","embedded_entities":["Spicer"]}]
+Resolved entities: ["Spicer"]
+Unresolved mentions: []
+
+[239]
+Gold target: his
+Sentence: "We are going to make America great again," Trump said at a rally Saturday afternoon in Wichita, Kansas, sticking with his signature campaign slogan.
+Selected targets: ["a rally Saturday afternoon in Wichita, Kansas","Trump"]
+Selected details: [{"target":"a rally Saturday afternoon in Wichita, Kansas","role":"object","event":"said","confidence":"medium","embedded_entities":["Wichita","Kansas"]},{"target":"Trump","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["America","Trump","Wichita","Kansas"]
+Unresolved mentions: ["We"]
+
+[240]
+Gold target: his
+Sentence: In particular, they pointed to his controversial decision to publicly announce the reopening of that inquiry shortly before election day in November.
+Selected targets: ["the reopening of that inquiry"]
+Selected details: [{"target":"the reopening of that inquiry","role":"object","event":"announce","confidence":"high","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["they","that"]
+
+[241]
+Gold target: him
+Sentence: What does the Russian president have on him?
+Selected targets: ["the Russian president"]
+Selected details: [{"target":"the Russian president","role":"subject","event":"have","confidence":"medium","embedded_entities":["Russian"]}]
+Resolved entities: ["Russian"]
+Unresolved mentions: ["What"]
+
+[242]
+Gold target: her
+Sentence: That dilemma, however, has been with her every step of her career, as she has moved closer to the center of power.
+Selected targets: ["That dilemma"]
+Selected details: [{"target":"That dilemma","role":"noun_phrase","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["That","she"]
+
+[243]
+Gold target: myself
+Sentence: Kayla Oblisk/Facebook
+Kayla Oblisk/Facebook
+"I'm so glad that as a parent I said to myself, 'Ya know something isn't right,' and followed it," Oblisk said.
+Selected targets: ["Ya","Oblisk"]
+Selected details: [{"target":"Ya","role":"subject","event":"know","confidence":"medium","embedded_entities":[]},{"target":"Oblisk","role":"subject","event":"said","confidence":"high","embedded_entities":[]}]
+Resolved entities: ["Kayla Oblisk","Oblisk"]
+Unresolved mentions: ["I","it"]
+
+[244]
+Gold target: his
+Sentence: To his supporters, South Korean President Moon Jae-in is a master negotiator who's fixing decades of bad nuclear diplomacy with North Korea.
+Selected targets: ["a master negotiator","Moon","decades of bad nuclear diplomacy with North Korea"]
+Selected details: [{"target":"a master negotiator","role":"object","event":"is","confidence":"medium","embedded_entities":[]},{"target":"Moon","role":"subject","event":"is","confidence":"high","embedded_entities":[]},{"target":"decades of bad nuclear diplomacy with North Korea","role":"object","event":"fixing","confidence":"medium","embedded_entities":["North Korea"]}]
+Resolved entities: ["South Korean","Moon Jae-","North Korea"]
+Unresolved mentions: ["who"]
+
+[245]
+Gold target: him
+Sentence: Speaking out against him, employees felt, might mean destabilizing The Nation Institute.
+Selected targets: ["employees","The Nation Institute"]
+Selected details: [{"target":"employees","role":"subject","event":"felt","confidence":"medium","embedded_entities":[]},{"target":"The Nation Institute","role":"object","event":"destabilizing","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["The Nation Institute"]
+Unresolved mentions: ["The Nation"]
+
+[246]
+Gold target: her
+Sentence: The English professor provoked a storm of criticism last week with her tweets following the death of the former first lady.
+Selected targets: ["a storm of criticism","The English professor"]
+Selected details: [{"target":"a storm of criticism","role":"object","event":"provoked","confidence":"medium","embedded_entities":[]},{"target":"The English professor","role":"subject","event":"provoked","confidence":"medium","embedded_entities":["English"]}]
+Resolved entities: ["English"]
+Unresolved mentions: []
+
+[247]
+Gold target: his
+Sentence: According to a transcript obtained by Fox News, in his weekly call with grassroots supporters, OFA Executive Director Jon Carson said of Syria, ‘We don't always actively organize around every issue and the debate in Congress over the Syria vote is not one that OFA is planning on organizing around.’
+Selected targets: ["a transcript","Fox News","Syria","OFA Executive Director Jon Carson","one","the debate in Congress over the Syria vote","OFA"]
+Selected details: [{"target":"a transcript","role":"object","event":"According","confidence":"medium","embedded_entities":[]},{"target":"Fox News","role":"object","event":"obtained","confidence":"medium","embedded_entities":[]},{"target":"Syria","role":"object","event":"said","confidence":"medium","embedded_entities":[]},{"target":"OFA Executive Director Jon Carson","role":"subject","event":"said","confidence":"high","embedded_entities":["OFA","Jon Carson"]},{"target":"one","role":"object","event":"is","confidence":"medium","embedded_entities":[]},{"target":"the debate in Congress over the Syria vote","role":"subject","event":"is","confidence":"high","embedded_entities":["Syria","Congress"]},{"target":"OFA","role":"subject","event":"planning","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Fox News","OFA","Jon Carson","Syria","Congress"]
+Unresolved mentions: []
+
+[248]
+Gold target: the former president and first lady
+Sentence: Insiders tell us that the former president and first lady are in advanced negotiations with the streaming service to produce a series that would provide them with a global platform.
+Selected targets: ["Insiders","a series"]
+Selected details: [{"target":"Insiders","role":"subject","event":"tell","confidence":"medium","embedded_entities":[]},{"target":"a series","role":"object","event":"produce","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: ["us","that","them"]
+
+[249]
+Gold target: Biafra
+Sentence: Nnamdi Kanu form wetin im call di Indigenous People Of Biafra (Ipob), for 2014.
+Selected targets: ["Nnamdi Kanu"]
+Selected details: [{"target":"Nnamdi Kanu","role":"entity","event":null,"confidence":"low","embedded_entities":[]}]
+Resolved entities: ["Nnamdi Kanu"]
+Unresolved mentions: []
+
+[250]
+Gold target: her
+Sentence: The coroner concluded that the multiple injuries had not contributed to her death.
+Selected targets: ["The coroner","the multiple injuries"]
+Selected details: [{"target":"The coroner","role":"subject","event":"concluded","confidence":"medium","embedded_entities":[]},{"target":"the multiple injuries","role":"subject","event":"contributed","confidence":"medium","embedded_entities":[]}]
+Resolved entities: []
+Unresolved mentions: []
+
+[251]
+Gold target: himself
+Sentence: Wearing a broad smile and pronouncing himself “exuberant,” Mr. Jones cast a ballot for himself on Tuesday morning and leveled a final round of criticism at his Republican opponent.
+Selected targets: ["a broad smile","a ballot","Mr. Jones","a final round of criticism"]
+Selected details: [{"target":"a broad smile","role":"object","event":"Wearing","confidence":"medium","embedded_entities":[]},{"target":"a ballot","role":"object","event":"cast","confidence":"medium","embedded_entities":[]},{"target":"Mr. Jones","role":"subject","event":"cast","confidence":"medium","embedded_entities":["Jones"]},{"target":"a final round of criticism","role":"object","event":"leveled","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Jones","Republican"]
+Unresolved mentions: []
+
+[252]
+Gold target: he
+Sentence: Obama, whose poll numbers have dropped sharply, was forced to concede last month that he was wrong to have made that pledge.
+Selected targets: ["whose poll numbers","Obama","that pledge"]
+Selected details: [{"target":"whose poll numbers","role":"subject","event":"dropped","confidence":"high","embedded_entities":[]},{"target":"Obama","role":"subject","event":"forced","confidence":"medium","embedded_entities":[]},{"target":"that pledge","role":"object","event":"made","confidence":"medium","embedded_entities":[]}]
+Resolved entities: ["Obama"]
+Unresolved mentions: []
+
+[253]
+Gold target: her
+Sentence: Retired Oakland County Circuit Judge Jack McDonald, who sentenced Nancy Seaman, is advocating for her release from prison.
+Selected targets: ["Nancy Seaman","Retired Oakland County Circuit Judge Jack McDonald"]
+Selected details: [{"target":"Nancy Seaman","role":"object","event":"sentenced","confidence":"medium","embedded_entities":[]},{"target":"Retired Oakland County Circuit Judge Jack McDonald","role":"subject","event":"advocating","confidence":"medium","embedded_entities":["Oakland County","Jack McDonald"]}]
+Resolved entities: ["Oakland County","Jack McDonald","Nancy Seaman"]
+Unresolved mentions: ["who"]
+
+
+GOLD TARGET FREQUENCY
+================================================================================
+ 28  his
+ 20  her
+ 14  him
+ 13  he
+ 10  Friday
+  8  Tuesday
+  7  Thursday
+  7  Sunday
+  7  ’m
+  6  Monday
+  6  He
+  6  Wednesday
+  5  me
+  3  myself
+  3  Twitter
+  3  she
+  3  the president
+  2  Trump
+  2  himself
+  2  it
+  2  the economy
+  2  this year
+  2  we
+  2  last week
+  2  Saturday
+  1  MANNING
+  1  Clapper
+  1  herself
+  1  the poll
+  1  THE FACTS
+  1  the billionaire businessman was an “absolute genius
+  1  the department
+  1  the primary race
+  1  the convention
+  1  the state
+  1  Lyin’ Ted
+  1  the world
+  1  Tisquantum
+  1  the third quarter
+  1  the county clerk
+  1  the show
+  1  announcement speech
+  1  the letter “
+  1  the middle class
+  1  the session
+  1  just a terrorist group
+  1  the attacks
+  1  the four congressional leaders
+  1  his effort
+  1  ” Sen.
+  1  the tea party
+  1  two people
+  1  Sen.
+  1  Christmas
+  1  his president
+  1  September
+  1  they
+  1  the book
+  1  the cops
+  1  her family
+  1  the media
+  1  February
+  1  the university
+  1  that night
+  1  his release
+  1  the commission
+  1  the hearing
+  1  Madonna
+  1  the report
+  1  that man
+  1  her husband
+  1  the economic emancipation campaign
+  1  the deaths
+  1  this view
+  1  his community
+  1  the well-documented failings of the probation service
+  1  Teachin'
+  1  My husband and I
+  1  the DEs –
+  1  December
+  1  She
+  1  her recovery
+  1  his job
+  1  Medieval Values, Shariah Law
+  1  the driver’s seat
+  1  This #WorldRefugeeDay
+  1  the wall
+  1  Graham
+  1  the moon
+  1  this week
+  1  a bus
+  1  LOSER &
+  1  Veterans
+  1  DEMOCRATIC PARTY
+  1  the President
+  1  his family
+  1  people
+  1  Congressman
+  1  the indictment
+  1  states with high levels of household gun ownership
+  1  next year
+  1  the 1-percentage-point county sales tax approved during his term
+  1  my law practice
+  1  These
+  1  the decision
+  1  our elections
+  1  the election
+  1  " Sen.
+  1  Facebook
+  1  The Queen
+  1  Shine
+  1  the former president and first lady
+  1  Biafra
+
+
+MATCH TIER DISTRIBUTION
+================================================================================
+match_tier
+EXACT                   4092
+RESOLVED_OR_EMBEDDED    3078
+SUBSTRING               1250
+NOT_FOUND                253

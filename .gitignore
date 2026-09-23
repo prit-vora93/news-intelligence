@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Large trained model files (267MB+ -- exceeds GitHub's 100MB limit;
+# use Git LFS, or exclude and document how to regenerate/download)
+models/*/model.safetensors
+models/*/*.bin
+
+# Third-party cloned repo -- reference it in README instead of
+# committing a duplicate copy with its own license/data
+NewsMTSC/
+
+# Generated dataset/output files -- regeneratable from scripts,
+# no need to commit (keep .gitkeep or a small sample if you want
+# something in the repo for demonstration)
+dataset_*.jsonl
+live_results.jsonl
+*_test_output*.jsonl
+r_fix_test_output*.jsonl
+
+# spaCy models are installed via pip, not project files
+# (en_core_web_sm / en_core_web_trf live in venv/site-packages)
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+models/newsmtc_distilbert_final.zip

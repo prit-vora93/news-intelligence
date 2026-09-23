@@ -1,0 +1,2 @@
+model,sentences_evaluated,gold_targets,found_targets,overall_recall,exact_count,exact_pct,resolved_or_embedded_count,resolved_or_embedded_pct,substring_count,substring_pct,not_found_count,not_found_pct,elapsed_seconds,targets_per_second,recall_delta_vs_first_model
+en_core_web_trf,300,340,330,0.970588,148,43.529,121,35.588,61,17.941,10,2.941,41.186,8.255,
