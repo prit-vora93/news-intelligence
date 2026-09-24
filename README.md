@@ -20,6 +20,31 @@ Takes a raw news sentence (no annotation needed) and produces:
 - Target recall: ~97% against real gold data (`en_core_web_trf`, 1000+ sentences)
 - Sentiment agreement with gold labels: ~92% (5,166 comparable records, full corpus)
 
+## Screenshots
+
+An interactive Streamlit app (`src/semantic/app.py`) sits on top of the
+pipeline, with three tabs:
+
+**Analyze an Article** — paste any article URL or raw text and get
+per-target sentiment, broken down by entity, in seconds.
+
+![Analyze an Article](docs/screenshots/analyze-article.png)
+
+**Live Dashboard** — a background job (`live_ingest.py`, scheduled via
+cron) continuously pulls from multiple RSS feeds, runs them through
+the full pipeline, and stores deduplicated results. This tab surfaces
+an entity leaderboard and day-over-day sentiment trends from that
+accumulated data.
+
+![Live Dashboard](docs/screenshots/live-dashboard.png)
+
+**Outlet Comparison** — compares how different news outlets frame the
+same entity, with a minimum-mentions safeguard so a framing-gap claim
+is never based on a thin, statistically unreliable sample from one
+side.
+
+![Outlet Comparison](docs/screenshots/outlet-comparison.png)
+
 ## Pipeline architecture
 
 ```
@@ -134,4 +159,3 @@ test set AND a new tech test set afterward, not just assume nothing
 broke. Also note "tech" isn't one domain -- a phone launch, a
 clinical trial, and a car recall read very differently, so real
 coverage would want genuine diversity within tech/science/auto too.
-# news_intelligence
