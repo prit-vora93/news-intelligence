@@ -72,6 +72,46 @@ def canonical_entity(record: dict) -> str | None:
     return None
 
 
+def derive_alias_mapping(entity_keys: set[str]) -> dict[str, str]:
+    """
+    Given a set of raw entity keys, run them through merge_aliases()
+    and return a mapping {raw_key: surviving_key}, so callers that
+    need to re-split already-merged entities by some OTHER dimension
+    (day, outlet, etc.) can apply the same consistent merge decision
+    without duplicating merge_aliases()'s suffix-matching logic.
+    """
+
+    fake_stats = {
+        key: {
+            "Positive": 0, "Neutral": 0, "Negative": 0,
+            "total": 0, "confidences": [], "display_name": key,
+        }
+        for key in entity_keys
+    }
+
+    merged = merge_aliases(fake_stats)
+    surviving_keys = set(merged.keys())
+
+    mapping: dict[str, str] = {}
+
+    for key in entity_keys:
+
+        if key in surviving_keys:
+            mapping[key] = key
+            continue
+
+        words = key.split()
+        for suffix_len in range(1, len(words)):
+            suffix = " ".join(words[-suffix_len:])
+            if suffix in surviving_keys:
+                mapping[key] = suffix
+                break
+        else:
+            mapping[key] = key
+
+    return mapping
+
+
 def merge_aliases(stats: dict[str, dict]) -> dict[str, dict]:
     """
     Merge longer name variants into a shorter, already-existing

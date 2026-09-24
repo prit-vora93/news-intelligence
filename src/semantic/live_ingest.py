@@ -238,6 +238,16 @@ def split_into_sentences(text: str, extractor: SemanticExtractor) -> list[str]:
     return sentences
 
 
+def load_seen_urls(path: Path) -> set[str]:
+    """Load the set of article URLs already processed in past runs."""
+
+    if not path.exists():
+        return set()
+
+    with open(path, encoding="utf-8") as f:
+        return {line.strip() for line in f if line.strip()}
+
+
 def main() -> None:
 
     parser = argparse.ArgumentParser(
@@ -252,10 +262,27 @@ def main() -> None:
         help="JSONL output file. APPENDED to (not overwritten), so repeated runs build a running history.",
     )
     parser.add_argument(
+        "--seen-urls-file", type=Path, default=None,
+        help="File tracking already-processed article URLs, to avoid re-processing the same article across repeated runs "
+             "(RSS feeds don't instantly drop old items, so the same article can appear in multiple runs). "
+             "Defaults to <output>.seen_urls.txt.",
+    )
+    parser.add_argument(
+        "--force", action="store_true",
+        help="Re-process articles even if their URL was already seen in a past run.",
+    )
+    parser.add_argument(
         "--quiet", action="store_true",
         help="Suppress the per-sentence console printout (still writes to --output).",
     )
     args = parser.parse_args()
+
+    seen_urls_path = args.seen_urls_file or Path(str(args.output) + ".seen_urls.txt")
+
+    seen_urls = load_seen_urls(seen_urls_path) if not args.force else set()
+
+    if seen_urls:
+        print(f"Loaded {len(seen_urls)} already-processed article URL(s) from {seen_urls_path}")
 
     print("Loading semantic pipeline...")
     extractor = SemanticExtractor(model_name=args.model)
@@ -267,9 +294,11 @@ def main() -> None:
 
     total_articles = 0
     total_articles_skipped = 0
+    total_articles_duplicate = 0
     total_records = 0
 
-    with open(args.output, "a", encoding="utf-8") as out_file:
+    with open(args.output, "a", encoding="utf-8") as out_file, \
+         open(seen_urls_path, "a", encoding="utf-8") as seen_urls_file:
 
         for feed_url in args.feed_urls:
 
@@ -279,6 +308,12 @@ def main() -> None:
             print(f"Found {len(urls)} article(s) to process")
 
             for url in urls:
+
+                if url in seen_urls:
+                    if not args.quiet:
+                        print(f"  Already processed (skipping): {url}")
+                    total_articles_duplicate += 1
+                    continue
 
                 if not args.quiet:
                     print()
@@ -329,15 +364,24 @@ def main() -> None:
 
                 out_file.flush()
 
+                # Mark this URL as seen immediately after successfully
+                # processing it, so a crash partway through a long run
+                # doesn't lose dedup progress already made.
+                seen_urls.add(url)
+                seen_urls_file.write(url + "\n")
+                seen_urls_file.flush()
+
     print()
     print("=" * 70)
     print("DONE")
     print("=" * 70)
     print(f"Feeds processed:        {len(args.feed_urls)}")
     print(f"Articles processed:     {total_articles}")
-    print(f"Articles skipped:       {total_articles_skipped}")
+    print(f"Articles skipped (fetch failed): {total_articles_skipped}")
+    print(f"Articles skipped (already seen): {total_articles_duplicate}")
     print(f"Records written:        {total_records}")
     print(f"Output file (appended): {args.output}")
+    print(f"Seen-URLs file:         {seen_urls_path}")
 
 
 if __name__ == "__main__":

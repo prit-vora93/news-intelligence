@@ -36,3 +36,6 @@ Thumbs.db
 .vscode/
 .idea/
 models/newsmtc_distilbert_final.zip
+cron.log
+live_results.jsonl.seen_urls.txt
+india_article.txt
