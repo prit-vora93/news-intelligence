@@ -123,6 +123,19 @@ For a single quick check without regenerating the whole corpus:
 PYTHONPATH=src python src/semantic/predict_pipeline.py "Your sentence here."
 ```
 
+## Running tests
+
+```bash
+pip install -r requirements-ci.txt   # minimal deps (spaCy + en_core_web_sm + pytest)
+pytest
+```
+
+`pytest.ini` sets `pythonpath = src`, so `PYTHONPATH=src` is not needed.
+Only `tests/` and the regression test in `src/semantic/test_semantic_extractor.py`
+are collected; the other `test_*.py` files under `src/` are manual scripts
+(run them with `python -m semantic.test_...`). CI runs on GitHub Actions
+(`.github/workflows/ci.yml`).
+
 ## Known, documented limitations (not bugs — deliberately scoped out)
 
 - **Cross-sentence coreference** — resolver only looks within the current sentence. (The original design note, `entity_resolver_scope_v1.md`, is not in this repo.)
