@@ -50,7 +50,7 @@ sample = sample[:SAMPLE_SIZE]
 print()
 print(f"Sampled {len(sample)} records across {len(buckets)} buckets")
 
-output_path = "labeling_trial_2.csv"
+output_path = "data/labeling/labeling_trial_2.csv"
 with open(output_path, "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow([

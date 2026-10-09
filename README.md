@@ -45,6 +45,21 @@ side.
 
 ![Outlet Comparison](docs/screenshots/outlet-comparison.png)
 
+## Repository layout
+
+```
+src/                 pipeline code (src/semantic/ = extraction, resolution, live ingest, app)
+tests/               integration tests
+scripts/             reusable labeling/sampling helpers
+scripts/archive/     one-off debug scripts (run from repo root; kept for reference)
+data/processed/      train/validation/test CSVs
+data/labeling/       sentence lists and labeling trial files
+models/              trained model config/tokenizer (weights are gitignored)
+outputs/             evaluation results (outputs/archive/ = old ad-hoc run outputs)
+docs/                guidelines and screenshots
+run_live_ingest.sh   cron wrapper for live ingestion
+```
+
 ## Pipeline architecture
 
 ```
@@ -79,7 +94,7 @@ TransformerPredictor    (transformer_predictor.py) -- your trained sentiment mod
 
 **Supporting:**
 - `transformer_predictor.py` (in `src/`, not `src/semantic/`) — loads and calls your trained model
-- `dataset_schema_v1.md`, `entity_resolver_scope_v1.md`, `target_annotation_guidelines_v1.md` — design decisions and full fix history, with reasoning
+- `docs/target_annotation_guidelines_v1.md` — target annotation guidelines. (`dataset_schema_v1.md` and `entity_resolver_scope_v1.md`, referenced in earlier notes, are not in this repository.)
 
 ## How to run the whole thing
 
@@ -88,7 +103,7 @@ cd ~/news_intelligence
 
 # Generate the full dataset: extraction + gold-matching + live sentiment prediction
 PYTHONPATH=src python src/semantic/build_dataset.py \
-    sentences_all.txt dataset_final.jsonl \
+    data/labeling/sentences_all.txt dataset_final.jsonl \
     --gold data/processed/train_target.csv \
     --model en_core_web_trf \
     --batch-size 16 \
@@ -110,14 +125,14 @@ PYTHONPATH=src python src/semantic/predict_pipeline.py "Your sentence here."
 
 ## Known, documented limitations (not bugs — deliberately scoped out)
 
-- **Cross-sentence coreference** — resolver only looks within the current sentence. See `entity_resolver_scope_v1.md` Section 9 for what this would take.
+- **Cross-sentence coreference** — resolver only looks within the current sentence. (The original design note, `entity_resolver_scope_v1.md`, is not in this repo.)
 - **Headline/quote-fragment sentences** ("Name: quote", ALL-CAPS headlines) — structurally different from normal clauses, occasionally produce weak targets.
 - **Long-clause targets can reduce sentiment accuracy** — confirmed via real disagreement analysis; full-phrase targets are sometimes harder for the model to classify correctly than short entity targets.
 - Minor cosmetic inconsistencies (occasional possessive `'s` in `embedded_entities`, rare pronoun-initial phrase leaks like "It all").
 
 ## Full history of fixes
 
-Every bug found, how it was diagnosed, and how it was fixed (with before/after evaluation numbers) is documented in `entity_resolver_scope_v1.md`'s Section 8 and this file's git history isn't tracked here, but the design docs are the source of truth for *why* things are the way they are — read those before changing core logic.
+The detailed fix history lived in `entity_resolver_scope_v1.md`, which is not in this repository. Use `git log` and `docs/target_annotation_guidelines_v1.md` for the reasoning behind core logic before changing it.
 
 ## Possible future direction: expanding beyond political news (not started)
 
