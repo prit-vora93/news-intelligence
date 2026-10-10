@@ -88,6 +88,28 @@ PYTHONPATH=src python src/semantic/live_ingest.py "https://feeds.npr.org/1001/rs
 On Windows PowerShell, set the path first with `$env:PYTHONPATH="src"` instead of
 the `PYTHONPATH=src` prefix.
 
+## Measuring accuracy on live data
+
+The sentiment model was trained on 2016-17 US political news, so accuracy on
+current feeds should be checked by hand.
+
+```bash
+# 1. Draw a ~150-record sample (stratified by outlet x predicted label).
+python3 scripts/sample_live_for_labeling.py            # or --input live_results.jsonl
+
+# 2. Open data/labeling/live_labeling_set.csv in a spreadsheet and fill the
+#    gold_label column with: negative, neutral or positive
+#    (sentiment toward target_text in that sentence). Do not open
+#    live_labeling_key.csv while labeling: it holds the model's predictions.
+
+# 3. Compare your labels with the model.
+python3 scripts/evaluate_live_labels.py
+```
+
+Output: accuracy, per-class precision/recall, a confusion matrix, and
+breakdowns by outlet and extraction confidence, plus `outputs/live_eval/`.
+`data/labeling/live_results_sample.jsonl` is a 1,000-line sample of live output.
+
 ## Repository layout
 
 ```
