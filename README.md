@@ -45,6 +45,49 @@ side.
 
 ![Outlet Comparison](docs/screenshots/outlet-comparison.png)
 
+## Quick start (run locally)
+
+Run everything from the repository root.
+
+```bash
+git clone https://github.com/prit-vora93/news-intelligence.git
+cd news-intelligence
+
+python3 -m venv venv
+source venv/bin/activate            # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+Notes:
+- `requirements.txt` pins CUDA/nvidia packages. On a Mac or a machine without an
+  NVIDIA GPU, `pip install` may fail on them; remove the `nvidia-*`, `cuda-*`
+  and `triton` lines and install again.
+- The spaCy models (`en_core_web_sm`, `en_core_web_trf`) are installed from
+  the URLs in `requirements.txt`.
+- **Model weights are not in the repository.** Copy `model.safetensors` into
+  `models/newsmtc_distilbert_final/` (only the config and tokenizer are
+  committed). Without it the sentiment model cannot load.
+
+Then:
+
+```bash
+# Streamlit app (Analyze an Article / Live Dashboard / Outlet Comparison)
+PYTHONPATH=src streamlit run src/semantic/app.py        # http://localhost:8501
+
+# Single-sentence check
+PYTHONPATH=src python src/semantic/predict_pipeline.py "Your sentence here."
+
+# REST API
+uvicorn src.api:app --reload                            # http://localhost:8000/docs
+
+# Live RSS ingest (feeds the Live Dashboard)
+PYTHONPATH=src python src/semantic/live_ingest.py "https://feeds.npr.org/1001/rss.xml" \
+    --max-articles 3 --model en_core_web_trf --output live_results.jsonl
+```
+
+On Windows PowerShell, set the path first with `$env:PYTHONPATH="src"` instead of
+the `PYTHONPATH=src` prefix.
+
 ## Repository layout
 
 ```

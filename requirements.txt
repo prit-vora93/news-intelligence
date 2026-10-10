@@ -132,3 +132,6 @@ weasel==1.0.0
 wrapt==2.3.0
 xxhash==4.0.1
 yarl==1.24.5
+# Streamlit frontend (src/semantic/app.py); not pinned because the exact
+# version used originally was not recorded.
+streamlit>=1.30
